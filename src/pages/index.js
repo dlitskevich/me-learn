@@ -1,5 +1,5 @@
-import { AuthPage } from './AuthPage.tsx'
+import { LearnPage } from './LearnPage/index.tsx';
 
 export default {
-  AuthPage,
-}
+  LearnPage,
+};
