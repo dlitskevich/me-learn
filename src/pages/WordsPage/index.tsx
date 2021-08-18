@@ -2,28 +2,17 @@ import firebase from 'firebase';
 import React from 'react';
 import { WordsTable } from './WordsTable';
 import { WordData } from '../../types';
+import { useUserDict } from '../../hooks/useUserDict';
 
 export const WordsPage = () => (
   <WordsTable words={getWords()} />
 );
 
 const getWords = (lang = 'en') => {
-  let data : WordData[] = [];
-  firebase.auth().onAuthStateChanged((user) => {
-    if (user) {
-      const db = firebase.firestore();
-      const docRef = db.collection('users').doc(`${lang}_${user.uid}`);
+  const data : WordData[] = [];
+  const dict = useUserDict('en');
+  console.log(dict);
 
-      docRef.onSnapshot((docSnapshot) => {
-        if (docSnapshot.exists) {
-          const docData = Object.entries({ ...docSnapshot.data() });
-          if (docData) {
-            data = docData.map(([key, val]) => ({ word: key, value: val }));
-          }
-        }
-      });
-    }
-  });
   console.log(data);
 
   return data;

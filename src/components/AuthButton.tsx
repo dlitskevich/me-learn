@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import firebase from 'firebase';
+import { useUser } from '../hooks/useUser';
 
 export const AuthButton = () => {
-  const [user, setUser] = useState<firebase.User | null>();
-  useEffect(() => {
-    firebase.auth().onAuthStateChanged(setUser);
-  }, []);
+  const user = useUser();
 
   if (user === undefined) {
     return null;

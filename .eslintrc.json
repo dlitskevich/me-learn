@@ -43,6 +43,8 @@
         "import/extensions": "off",
         "no-unused-vars": "warn",
         "no-console": "off",
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off",
         "react/jsx-filename-extension": [
             2,
             {

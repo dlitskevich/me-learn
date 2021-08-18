@@ -36,7 +36,7 @@ const addWord = (word:string, value:number, lang = 'en') => {
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
       const db = firebase.firestore();
-      const docRef = db.collection('users').doc(`${lang}_${user.uid}`);
+      const docRef = db.collection('userDict').doc(`${lang}_${user.uid}`);
 
       docRef.get()
         .then((docSnapshot) => {
