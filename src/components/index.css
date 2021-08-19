@@ -1,0 +1,7 @@
+.speakWord{
+    border-bottom: 3px powderblue dashed;
+}
+
+.speakWord:hover{
+    color: royalblue;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, RouteProps, Switch } from 'react-router-dom';
 import './App.css';
 import './services/auth';
+import './services/localStorage';
 import { Navigation } from './components/Navigation';
 import { About } from './components/About';
 import { Home } from './components/Home';

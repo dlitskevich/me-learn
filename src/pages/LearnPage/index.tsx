@@ -1,24 +1,30 @@
 import React from 'react';
 import { Learn } from './Learn';
 
-const data = {
-  1: {
-    word: 'mum',
-    ipa: 'mam',
-    ru: 'мама',
-  },
-  2: {
-    word: 'dad',
-    ipa: 'ded',
-    ru: 'папа',
-  },
-  3: {
-    word: 'sister',
-    ipa: 'sista:',
-    ru: 'сестра',
-  },
-};
+interface Verb{
+  verb: string,
+  verb2: string,
+  verb3: string,
+  gerund: string,
+  '1st'?: string,
+  '2nd'?: string,
+  '3rd'?: string,
+  '3rdPret'?: string
+}
+
+interface Verbs{
+  _version:number,
+  data:{[word:string]:Verb}
+}
 
 export const LearnPage = () => (
-  <Learn word={data[2].word} />
+  <Learn word={getData()} />
 );
+
+const dict:Verbs = JSON.parse(localStorage.getItem('verbs') || '{}');
+
+const getData = () => {
+  console.log(Object.keys(dict.data)[2]);
+
+  return Object.keys(dict.data)[Math.floor(100 * Math.random())];
+};

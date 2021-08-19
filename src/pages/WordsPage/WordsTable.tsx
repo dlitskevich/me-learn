@@ -19,6 +19,6 @@ export const WordsTable = ({ words }:Props) => (
 
 const Row = ({ word, value }:WordData) => (
   <div className="row">
-    <p>s</p>
+    <p>{word + value}</p>
   </div>
 );

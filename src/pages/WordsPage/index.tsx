@@ -1,4 +1,3 @@
-import firebase from 'firebase';
 import React from 'react';
 import { WordsTable } from './WordsTable';
 import { WordData } from '../../types';
@@ -10,7 +9,7 @@ export const WordsPage = () => (
 
 const getWords = (lang = 'en') => {
   const data : WordData[] = [];
-  const dict = useUserDict('en');
+  const dict = useUserDict(lang);
   console.log(dict);
 
   console.log(data);
