@@ -19,6 +19,9 @@ export const Navigation = () => (
       <li className="nav-item">
         <NavLink to="/words" className="nav-link" activeClassName="active">Words</NavLink>
       </li>
+      <li className="nav-item">
+        <NavLink to="/train" className="nav-link" activeClassName="active">Train</NavLink>
+      </li>
     </ul>
     <div className="nav-item d-flex">
       <AuthButton />
