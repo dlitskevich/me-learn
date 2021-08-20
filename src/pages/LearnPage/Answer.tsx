@@ -1,10 +1,32 @@
 import React from 'react';
+import { useKeyUp } from '../../hooks/useKeyUp';
+import './index.css';
 
-export const Answer = ({ word, content, value }:{word:string, content: string, value: number}) => (
-  <button type="button" className="btn btn-lg btn-outline-primary" onClick={() => addWord(word, value)}>
-    {content}
-  </button>
-);
+interface Props{
+  word:string,
+  content: string,
+  value: number,
+  keyValue: number,
+  onClick: ()=>void
+}
+export const Answer = ({ word, content, value, keyValue, onClick }:Props) => {
+  console.log(keyValue);
+  useKeyUp(`${keyValue}`, () => { addWord(word, value); onClick(); });
+
+  return (
+    <button
+      type="button"
+      className="btn btn-lg btn-outline-primary"
+      onClick={() => { addWord(word, value); onClick(); }}
+    >
+      <div className="container d-flex p-0">
+
+        <span className="keyValue">{keyValue}</span>
+        <span>{content}</span>
+      </div>
+    </button>
+  );
+};
 
 const addWord = (word:string, value:number, lang = 'en') => {
   const dictString = localStorage.getItem(`${lang}_words`);

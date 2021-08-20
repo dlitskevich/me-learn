@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Learn } from './Learn';
 
 interface Verb{
@@ -17,9 +17,15 @@ interface Verbs{
   data:{[word:string]:Verb}
 }
 
-export const LearnPage = () => (
-  <Learn word={getData()} />
-);
+export const LearnPage = () => {
+  const [state, setState] = useState(false);
+  const refresh = () => {
+    setState(!state);
+  };
+  return (
+    <Learn word={getData()} refresh={refresh} />
+  );
+};
 
 const dict:Verbs = JSON.parse(localStorage.getItem('verbs') || '{}');
 
