@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { UtterText } from '../../components/UtterText';
 import { useRecognition } from '../../hooks/useRecognition';
 import { ListenButton } from './ListenButton';
