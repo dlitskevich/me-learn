@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import { Speech } from './Speech';
+import * as phrasesData from '../../data/phrases.json';
 
-const phrases = [
-  'I like playing chess',
-  'He likes playing dodgeball',
-  'I don\'t know that',
-];
+const phrases = phrasesData.data;
 
 export const TrainPage = () => {
   const [phrase, setPhrase] = useState(getPhrase());

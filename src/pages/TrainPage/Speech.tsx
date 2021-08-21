@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { UtterText } from '../../components/UtterText';
-import { useListenText } from '../../hooks/useListenText';
 import { useRecognition } from '../../hooks/useRecognition';
 import { ListenButton } from './ListenButton';
 import { SameText } from './SameText';
