@@ -1,11 +1,15 @@
+html{
+  height: 100%;
+}
 body {
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 576px;
+  min-width: 400px;
 }
 
 code {
@@ -15,4 +19,16 @@ code {
 
 h1{
   font-size: 3em;
+}
+
+#root{
+  position: relative;
+  height: 100%;
+}
+.app{
+  max-width: '768px';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -3,16 +3,17 @@ import { Speech } from './Speech';
 
 const phrases = [
   'I like playing chess',
-  'He likes playing dodge ball',
+  'He likes playing dodgeball',
+  'I don\'t know that',
 ];
 
 export const TrainPage = () => {
-  const [state, setState] = useState(0);
+  const [phrase, setPhrase] = useState(getPhrase());
   const refresh = () => {
-    setState(state + 1);
+    setPhrase(getPhrase());
   };
   return (
-    <Speech phrase={getPhrase()} refresh={refresh} />
+    <Speech phrase={phrase} refresh={refresh} />
   );
 };
 
