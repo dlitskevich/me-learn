@@ -1,5 +1,6 @@
 .speakWord{
     border-bottom: 3px powderblue dashed;
+    margin-right: 10px;
 }
 
 .speakWord:hover{

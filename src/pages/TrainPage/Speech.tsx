@@ -25,15 +25,16 @@ export const Speech = ({ phrase, refresh }:Props) => {
 
   return (
     <div className="container" style={{ maxWidth: '768px' }}>
-      <UtterText text={phrase}>
-        <h1 className="speakWord">{phrase}</h1>
-      </UtterText>
-      <SameText phrase={phrase} recieved={text} onSuccess={succeed} />
+
+      <h1>
+        <SameText phrase={phrase} recieved={text} onSuccess={succeed} />
+      </h1>
+
       <p>{text}</p>
       <div className="mt-3 d-flex justify-content-between">
         <ListenButton isLoading={isLoading} start={start} stop={stop} success={success} />
-        <button type="button" className={`btn ${success ? 'btn-success' : 'btn-secondary'}`} onClick={next}>
-          Next
+        <button type="button" className="btn btn-secondary" onClick={next}>
+          Skip
         </button>
       </div>
       <div className="btn-main-container btn-block">

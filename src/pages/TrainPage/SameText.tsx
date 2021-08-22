@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { UtterText } from '../../components/UtterText';
 
 interface Props{
     phrase:string,
@@ -16,9 +17,13 @@ export const SameText = ({ phrase, recieved, onSuccess }:Props) => {
     }
   });
   return (
-    <>
-      {words.map((el, i) => <span key={el} style={{ color: getStyle(el, i, recievedWords) }}>{`${el} `}</span>)}
-    </>
+    <div className="container d-flex flex-wrap">
+      {words.map((el, i) => (
+        <UtterText text={el}>
+          <span key={el} style={{ color: getStyle(el, i, recievedWords) }}>{`${el}`}</span>
+        </UtterText>
+      ))}
+    </div>
   );
 };
 

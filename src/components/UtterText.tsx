@@ -6,7 +6,7 @@ interface Props{
   text:string, children:React.ReactNode
 }
 export const UtterText = ({ text, children }:Props) => (
-  <div role="tooltip" onClick={() => speak(text)}>
+  <div role="tooltip" className="speakWord" onClick={() => speak(text)}>
     {children}
   </div>
 );
