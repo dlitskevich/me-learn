@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, RouteProps, Switch } from 'react-router-dom';
+import { HashRouter, Route, RouteProps, Switch } from 'react-router-dom';
 import './App.css';
 import './services/auth';
 import './services/localStorage';
@@ -13,7 +13,7 @@ import { TrainPage } from './pages/TrainPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <>
         <Navigation />
         <div className="app container">
@@ -26,7 +26,7 @@ function App() {
           </Switch>
         </div>
       </>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

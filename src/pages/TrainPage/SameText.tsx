@@ -29,12 +29,16 @@ const getStyle = (el:string, i:number, recievedWords:string[]) => {
   return 'black';
 };
 
-const sameWord = (word:string, recieved:string) => word.toLowerCase() === recieved.toLowerCase();
-
 const samePhrase = (words:string[], recievedWords:string[]) => {
   if (words.length > recievedWords.length) {
     return false;
   }
   const sameCount = words.reduce((prev, cur, i) => prev + (cur === recievedWords[i] ? 1 : 0), 0);
   return sameCount / words.length > 0.7;
+};
+
+const sameWord = (word:string, recieved:string) => wordToNorm(word) === wordToNorm(recieved);
+
+const wordToNorm = (word:string) => {
+  word.toLowerCase().replace(/[.,!?]/g, '');
 };
