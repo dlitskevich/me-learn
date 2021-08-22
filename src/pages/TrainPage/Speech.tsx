@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+/* eslint-disable max-len */
+import React, { useEffect, useState } from 'react';
 import { UtterText } from '../../components/UtterText';
 import { useRecognition } from '../../hooks/useRecognition';
 import { ListenButton } from './ListenButton';
+import { MainListenButton } from './MainListenButton';
 import { SameText } from './SameText';
+import './index.css';
 
 interface Props{
   phrase:string,
@@ -14,6 +17,11 @@ export const Speech = ({ phrase, refresh }:Props) => {
   const [success, setSuccess] = useState<boolean|undefined>();
   const succeed = (v:boolean) => { setSuccess(v); };
   const { text, error, isLoading, start, stop, reset } = useRecognition();
+  const next = () => {
+    if (!isLoading) {
+      reset(); refresh(); setSuccess(undefined); setTimeout(start, 10);
+    }
+  };
 
   return (
     <div className="container" style={{ maxWidth: '768px' }}>
@@ -24,13 +32,12 @@ export const Speech = ({ phrase, refresh }:Props) => {
       <p>{text}</p>
       <div className="mt-3 d-flex justify-content-between">
         <ListenButton isLoading={isLoading} start={start} stop={stop} success={success} />
-        <button
-          type="button"
-          className={`btn ${success ? 'btn-success' : 'btn-primary'}`}
-          onClick={() => { refresh(); reset(); setSuccess(undefined); }}
-        >
+        <button type="button" className={`btn ${success ? 'btn-success' : 'btn-secondary'}`} onClick={next}>
           Next
         </button>
+      </div>
+      <div className="btn-main-container btn-block">
+        <MainListenButton isLoading={isLoading} start={start} stop={stop} next={next} success={success} />
       </div>
 
     </div>

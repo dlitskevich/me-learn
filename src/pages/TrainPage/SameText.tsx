@@ -22,9 +22,9 @@ export const SameText = ({ phrase, recieved, onSuccess }:Props) => {
   );
 };
 
-const getStyle = (el:string, i:number, recievedWords:string[]) => {
+const getStyle = (word:string, i:number, recievedWords:string[]) => {
   if (i < recievedWords.length) {
-    return sameWord(el, recievedWords[i]) ? 'green' : 'red';
+    return sameWord(word, recievedWords[i]) ? 'green' : 'red';
   }
   return 'black';
 };
@@ -33,12 +33,11 @@ const samePhrase = (words:string[], recievedWords:string[]) => {
   if (words.length > recievedWords.length) {
     return false;
   }
-  const sameCount = words.reduce((prev, cur, i) => prev + (cur === recievedWords[i] ? 1 : 0), 0);
+  // eslint-disable-next-line max-len
+  const sameCount = words.reduce((prev, cur, i) => prev + (sameWord(cur, recievedWords[i]) ? 1 : 0), 0);
   return sameCount / words.length > 0.7;
 };
 
 const sameWord = (word:string, recieved:string) => wordToNorm(word) === wordToNorm(recieved);
 
-const wordToNorm = (word:string) => {
-  word.toLowerCase().replace(/[.,!?]/g, '');
-};
+const wordToNorm = (word:string) => word.toLowerCase().replace(/[.,!?()]/g, '');

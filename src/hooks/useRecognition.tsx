@@ -17,26 +17,30 @@ export const useRecognition = () => {
     if (!recognition) {
       setError(new Error('Not supported'));
     }
+    if (text) { reset(); }
 
     recognition.onresult = (event) => {
       setText(event.results[0][0].transcript);
     };
     recognition.onend = () => setIsLoading(false);
-    recognition.onerror = (err) => setError(new Error(err.message));
-
+    recognition.onerror = (err) => { setError(new Error(err.message)); setIsLoading(false); };
     recognition.onstart = () => setIsLoading(true);
-    recognition.start();
+
+    try {
+      recognition.start();
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   const stop = () => {
-    if (isLoading) {
-      setIsLoading(false);
-      recognition.stop();
-    }
-  };
-  const reset = () => {
-    setText('');
+    recognition.stop();
     setIsLoading(false);
+  };
+
+  const reset = () => {
+    stop();
+    setText('');
     setError(undefined);
   };
   return { text, error, isLoading, start, stop, reset };
