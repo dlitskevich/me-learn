@@ -10,9 +10,11 @@ interface Props{
 
 export const Learn = ({ word, refresh }:Props) => (
   <div className="container" style={{ maxWidth: '768px' }}>
-    <UtterText text={word}>
-      <h1 className="speakWord">{word}</h1>
-    </UtterText>
+    <h1>
+      <UtterText text={word}>
+        <span>{word}</span>
+      </UtterText>
+    </h1>
     {/* hint */}
     <div className=" mt-3 d-flex justify-content-between">
       {answersEn.map((el) => <Answer key={`${word}${el.value}`} keyValue={el.key} onClick={refresh} word={word} content={el.content} value={el.value} />)}

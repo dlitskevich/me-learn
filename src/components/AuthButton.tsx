@@ -10,25 +10,13 @@ export const AuthButton = () => {
   }
   if (!user) {
     return (
-      <button
-        type="button"
-        className="btn btn-primary"
-        onClick={() => {
-          firebase.auth().signInWithPopup(new firebase.auth.GoogleAuthProvider());
-        }}
-      >
+      <button type="button" className="btn btn-outline-success my-2 my-sm-0" onClick={() => { firebase.auth().signInWithPopup(new firebase.auth.GoogleAuthProvider()); }}>
         Log in
       </button>
     );
   }
   return (
-    <button
-      type="button"
-      className="btn btn-danger"
-      onClick={() => {
-        firebase.auth().signOut();
-      }}
-    >
+    <button type="button" className="btn btn-outline-danger my-2 my-sm-0" onClick={() => { firebase.auth().signOut(); }}>
       Log out
     </button>
   );

@@ -19,15 +19,15 @@ export const SameText = ({ phrase, recieved, onSuccess }:Props) => {
   return (
     <div className="container d-flex flex-wrap">
       {words.map((el, i) => (
-        <UtterText text={el}>
-          <span key={el} style={{ color: getStyle(el, i, recievedWords) }}>{`${el}`}</span>
+        <UtterText key={el} text={el}>
+          <span style={{ color: getColor(el, i, recievedWords) }}>{`${el}`}</span>
         </UtterText>
       ))}
     </div>
   );
 };
 
-const getStyle = (word:string, i:number, recievedWords:string[]) => {
+const getColor = (word:string, i:number, recievedWords:string[]) => {
   if (i < recievedWords.length) {
     return sameWord(word, recievedWords[i]) ? 'green' : 'red';
   }

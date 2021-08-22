@@ -1,11 +1,10 @@
 /* eslint-disable max-len */
-import React, { useEffect, useState } from 'react';
-import { UtterText } from '../../components/UtterText';
+import React, { useState } from 'react';
 import { useRecognition } from '../../hooks/useRecognition';
-import { ListenButton } from './ListenButton';
 import { MainListenButton } from './MainListenButton';
 import { SameText } from './SameText';
 import './index.css';
+import { AuxListenButton } from './AuxListenButton';
 
 interface Props{
   phrase:string,
@@ -13,34 +12,29 @@ interface Props{
 }
 
 export const Speech = ({ phrase, refresh }:Props) => {
-  // const { recognition, text } = useListenText();
   const [success, setSuccess] = useState<boolean|undefined>();
   const succeed = (v:boolean) => { setSuccess(v); };
-  const { text, error, isLoading, start, stop, reset } = useRecognition();
+  const { text, isLoading, start, stop, reset } = useRecognition();
   const next = () => {
     if (!isLoading) {
-      reset(); refresh(); setSuccess(undefined); setTimeout(start, 10);
+      reset(); refresh(); setSuccess(undefined); start();
     }
   };
 
   return (
     <div className="container" style={{ maxWidth: '768px' }}>
-
       <h1>
         <SameText phrase={phrase} recieved={text} onSuccess={succeed} />
       </h1>
-
       <p>{text}</p>
-      <div className="mt-3 d-flex justify-content-between">
-        <ListenButton isLoading={isLoading} start={start} stop={stop} success={success} />
-        <button type="button" className="btn btn-secondary" onClick={next}>
-          Skip
-        </button>
+      <div id="control-panel">
+        <div className="mb-2 d-flex justify-content-center">
+          <AuxListenButton isLoading={isLoading} start={start} next={next} success={success} />
+        </div>
+        <div className="btn-main-container btn-block mb-2">
+          <MainListenButton isLoading={isLoading} start={start} stop={stop} next={next} success={success} />
+        </div>
       </div>
-      <div className="btn-main-container btn-block">
-        <MainListenButton isLoading={isLoading} start={start} stop={stop} next={next} success={success} />
-      </div>
-
     </div>
   );
 };

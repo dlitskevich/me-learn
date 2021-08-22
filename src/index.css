@@ -12,6 +12,12 @@ body {
   min-width: 400px;
 }
 
+
+#root{
+  position: relative;
+  height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -19,16 +25,4 @@ code {
 
 h1{
   font-size: 3em;
-}
-
-#root{
-  position: relative;
-  height: 100%;
-}
-.app{
-  max-width: '768px';
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }

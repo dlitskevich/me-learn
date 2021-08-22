@@ -2,7 +2,6 @@ import React from 'react';
 import { ListenButton } from './ListenButton';
 
 interface Props{
-    // eslint-disable-next-line no-undef
     success:boolean|undefined,
     isLoading: boolean,
     start: ()=>any,
