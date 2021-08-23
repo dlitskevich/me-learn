@@ -1,5 +1,4 @@
-export interface ICourseInfo{
-    id:number,
+export interface IUnitInfo{
     title:string,
     link:string,
     progress?:number

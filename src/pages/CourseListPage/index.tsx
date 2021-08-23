@@ -1,39 +1,26 @@
+/* eslint-disable max-len */
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { useAsyncData } from '../../hooks/useAsyncData';
 import { ICourseInfo } from '../../types/ICourseInfo';
-import { CourseInfo } from './CourseInfo';
+import { LanguageCourse } from './LanguageCourse';
+import { AsyncList } from '../../components/AsyncList';
+import './index.css';
 
-interface Props{
-  title:string
+type ILanguageCourse = {
+  id:number,
+  language:string,
+  data:ICourseInfo[]
 }
 
-export const CourseListPage = () => {
-  const { title } = useParams<Props>();
-  const courses = useAsyncData<ICourseInfo[]>(() => getCourseListInfo(title));
+export const CourseListPage = () => <AsyncList<ILanguageCourse> get={getLanguageCourseList} renderItem={renderLanguageCourse} />;
 
-  return (
-    <div>
-      <h1>{title}</h1>
-      <div>
-        {!courses.isLoading
-          ? courses.data.map((el, i) => <CourseInfo key={`info_${title + i}`} title={el.title} link={el.link} progress={el.progress} />)
-          : null}
-      </div>
-    </div>
+const renderLanguageCourse = (el:ILanguageCourse) => <LanguageCourse key={`lang_courses_${el.language}`} language={el.language} data={el.data} />;
 
-  );
-};
-CourseListPage.defaultProps = {
-  title: 'english',
-};
-
-const getCourseListInfo = (title:String) => {
-  if (!localStorage.getItem(`info_${title}`)) {
-    return import(`../../data/${title}/courses`).then((info) => {
-      localStorage.setItem(`info_${title}`, JSON.stringify(info.default));
+const getLanguageCourseList : () => Promise<ILanguageCourse[]> = () => {
+  if (!localStorage.getItem('info_language')) {
+    return import('../../data/courses.json').then((info) => {
+      localStorage.setItem('info_language', JSON.stringify(info.default));
       return info.default;
     });
   }
-  return Promise.resolve(JSON.parse(localStorage.getItem(`info_${title}`) || '[]'));
+  return Promise.resolve(JSON.parse(localStorage.getItem('info_language') || '[]'));
 };

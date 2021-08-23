@@ -20,7 +20,7 @@ function App() {
           <Switch>
             <Route path="/" component={Home} exact />
             <GuardedRoute path="/learn" component={LearnPage} />
-            <Route path="/courses/:title" component={CourseListPage} />
+            <Route path="/courses" component={CourseListPage} />
             <Route path="/train" component={TrainPage} />
             <Route component={Error} />
           </Switch>

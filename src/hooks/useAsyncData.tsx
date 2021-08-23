@@ -1,30 +1,28 @@
 import { useEffect, useState } from 'react';
 
 export interface AsyncData<T>{
-  data:T,
+  data:T[],
   reload:()=>void,
   error:Error,
   isLoading:boolean,
 
 }
 
-export function useAsyncData<Type>(get:()=>Promise<Type>) {
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+export function useAsyncData<T>(get:()=>Promise<T[]>) {
+  const [isLoading, setIsLoading] = useState<boolean|undefined>();
   const [error, setError] = useState<Error>();
-  const [data, setData] = useState<Type>();
-  useEffect(() => getData(), []);
-  const getData = () => {
-    get().then((val) => {
-      setData(val); setIsLoading(false);
-    }).catch((err) => setError(err));
-  };
+  const [data, setData] = useState<T[]>();
 
-  const reload = () => {
+  useEffect(() => getData(), []);
+
+  const getData = () => {
     if (!isLoading) {
       setIsLoading(true);
-      getData();
+      get().then((val) => setData(val))
+        .catch((err) => setError(err))
+        .finally(() => setIsLoading(false));
     }
   };
 
-  return { data, error, isLoading, reload } as AsyncData<Type>;
+  return { data, error, isLoading, reload: getData } as AsyncData<T>;
 };
