@@ -7,9 +7,9 @@ import { Navigation } from './components/Navigation';
 import { Home } from './components/Home';
 import { Error } from './components/Error';
 import { LearnPage } from './pages/LearnPage';
-import { WordsPage } from './pages/WordsPage';
 import { useUser } from './hooks/useUser';
 import { TrainPage } from './pages/TrainPage';
+import { CourseListPage } from './pages/CourseListPage';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Switch>
             <Route path="/" component={Home} exact />
             <GuardedRoute path="/learn" component={LearnPage} />
-            <GuardedRoute path="/words" component={WordsPage} />
+            <Route path="/courses/:title" component={CourseListPage} />
             <Route path="/train" component={TrainPage} />
             <Route component={Error} />
           </Switch>

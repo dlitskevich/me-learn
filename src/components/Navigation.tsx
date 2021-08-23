@@ -15,7 +15,7 @@ export const Navigation = () => (
           <NavLink to="/learn" className="nav-link" activeClassName="active">Learn</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/words" className="nav-link" activeClassName="active">Words</NavLink>
+          <NavLink to="/courses/english" className="nav-link" activeClassName="active">Courses</NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/train" className="nav-link" activeClassName="active">Train</NavLink>
