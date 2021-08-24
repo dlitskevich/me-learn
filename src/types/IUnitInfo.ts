@@ -1,5 +1,5 @@
 export interface IUnitInfo{
-    title:string,
-    link:string,
+    name:string,
+    phrases:string[],
     progress?:number
 }

@@ -163,7 +163,7 @@
             ]
         },
         {
-            "name": "Travel, directions",
+            "name": "Travel and directions",
             "phrases": [
                 "About 300 kilometers.",
                 "A one way ticket.",
@@ -191,7 +191,7 @@
                 "How was the movie?",
                 "I'd like to make a phone call.",
                 "I'd like to make a reservation.",
-                "I have a question I want to ask you./ I want to ask you a question.",
+                "I have a question I want to ask you. I want to ask you a question.",
                 "I'll take that one also.",
                 "I'm coming right now.",
                 "I'm going home in four days.",
@@ -328,7 +328,7 @@
             ]
         },
         {
-            "name": "Phone/internet/mail",
+            "name": "Phone internet mail",
             "phrases": [
                 "Can I see your passport please?",
                 "Can I take a message?",
@@ -781,10 +781,6 @@
                 "Where's the nearest hospital?",
                 "Where's the post office?"
             ]
-        },
-        {
-            "name": "Cultural expressions/terms",
-            "phrases": []
         },
         {
             "name": "General questions",

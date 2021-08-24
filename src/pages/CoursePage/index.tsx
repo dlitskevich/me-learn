@@ -1,40 +1,36 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { useAsyncData } from '../../hooks/useAsyncData';
 import { IUnitInfo } from '../../types/IUnitInfo';
 import { UnitInfo } from './UnitInfo';
 import './index.css';
+import { AsyncList } from '../../components/AsyncList';
 
-interface Props{
-  title:string
+interface Params{
+  courseName:string,
+  language:string
 }
 
 export const CoursePage = () => {
-  const { title } = useParams<Props>();
-  const courses = useAsyncData<IUnitInfo[]>(() => getUnitInfoList(title));
-
+  const { courseName, language } = useParams<Params>();
   return (
-    <div>
-      <h1>{title.charAt(0).toUpperCase() + title.substring(1)}</h1>
+    <div className="container pb-1">
+      <h1>{courseName.charAt(0).toUpperCase() + courseName.substring(1).replace(/-/g, ' ')}</h1>
       <div>
-        {/* {!courses.isLoading
-          ? courses.data.map((el, i) => <UnitInfo key={`info_${title + i}`} title={el.title} link={el.link} progress={el.progress} />)
-          : null} */}
+        <AsyncList<IUnitInfo> get={() => getUnitInfoList(language, courseName)} renderItem={renderUnitInfo} />
       </div>
     </div>
 
   );
 };
-CoursePage.defaultProps = {
-  title: 'english',
-};
 
-const getUnitInfoList = (title:String) => {
-  if (!localStorage.getItem(`info_${title}`)) {
-    return import(`../../data/${title}/courses`).then((info) => {
-      localStorage.setItem(`info_${title}`, JSON.stringify(info.default));
-      return info.default;
+const renderUnitInfo = (el:IUnitInfo) => <UnitInfo key={`lang_courses_${el.name}`} name={el.name} phrases={el.phrases} />;
+
+const getUnitInfoList = (language:string, courseName:string) => {
+  if (!localStorage.getItem(`info_${courseName}`)) {
+    return import(`../../data/${language}/${courseName}`).then((info) => {
+      localStorage.setItem(`info_${language}_${courseName}`, JSON.stringify(info.default.data));
+      return info.default.data;
     });
   }
-  return Promise.resolve(JSON.parse(localStorage.getItem(`info_${title}`) || '[]'));
+  return Promise.resolve(JSON.parse(localStorage.getItem(`info_${language}_${courseName}`) || '[]'));
 };
