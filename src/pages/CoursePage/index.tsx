@@ -23,14 +23,15 @@ export const CoursePage = () => {
   );
 };
 
-const renderUnitInfo = (el:IUnitInfo) => <UnitInfo key={`lang_courses_${el.name}`} name={el.name} phrases={el.phrases} />;
+const renderUnitInfo = (el:IUnitInfo) => <UnitInfo key={`lang_courses_${el.title}`} title={el.title} filename={el.filename} />;
 
 const getUnitInfoList = (language:string, courseName:string) => {
-  if (!localStorage.getItem(`info_${courseName}`)) {
-    return import(`../../data/${language}/${courseName}`).then((info) => {
-      localStorage.setItem(`info_${language}_${courseName}`, JSON.stringify(info.default.data));
-      return info.default.data;
+  const name = `info_${language}_${courseName}`;
+  if (!localStorage.getItem(name)) {
+    return import(`../../data/${language}/${courseName}/_info`).then((info) => {
+      localStorage.setItem(name, JSON.stringify(info.default));
+      return info.default;
     });
   }
-  return Promise.resolve(JSON.parse(localStorage.getItem(`info_${language}_${courseName}`) || '[]'));
+  return Promise.resolve(JSON.parse(localStorage.getItem(name) || '[]'));
 };

@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react';
 
 export interface AsyncData<T>{
-  data:T[],
+  data:T,
   reload:()=>void,
   error:Error,
   isLoading:boolean,
 
 }
 
-export function useAsyncData<T>(get:()=>Promise<T[]>) {
+export function useAsyncData<T>(get:()=>Promise<T>) {
   const [isLoading, setIsLoading] = useState<boolean|undefined>();
   const [error, setError] = useState<Error>();
-  const [data, setData] = useState<T[]>();
+  const [data, setData] = useState<T>();
 
   useEffect(() => getData(), []);
 

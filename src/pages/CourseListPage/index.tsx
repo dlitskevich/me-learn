@@ -16,11 +16,12 @@ export const CourseListPage = () => <AsyncList<ILanguageCourse> get={getLanguage
 const renderLanguageCourse = (el:ILanguageCourse) => <LanguageCourse key={`lang_courses_${el.language}`} language={el.language} data={el.data} />;
 
 const getLanguageCourseList : () => Promise<ILanguageCourse[]> = () => {
-  if (!localStorage.getItem('info_language')) {
+  const name = 'info_language';
+  if (!localStorage.getItem(name)) {
     return import('../../data/courses.json').then((info) => {
-      localStorage.setItem('info_language', JSON.stringify(info.default));
+      localStorage.setItem(name, JSON.stringify(info.default));
       return info.default;
     });
   }
-  return Promise.resolve(JSON.parse(localStorage.getItem('info_language') || '[]'));
+  return Promise.resolve(JSON.parse(localStorage.getItem(name) || '[]'));
 };

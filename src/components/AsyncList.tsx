@@ -9,7 +9,7 @@ type Props<T> = {
 }
 
 export const AsyncList = <T, >({ get, renderItem }:Props<T>) => {
-  const { isLoading, error, data } = useAsyncData<T>(get);
+  const { isLoading, error, data } = useAsyncData<T[]>(get);
   if (error) {
     return <div>{error.message}</div>;
   }
