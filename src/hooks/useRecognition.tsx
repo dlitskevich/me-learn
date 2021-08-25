@@ -2,7 +2,8 @@
 import { useState } from 'react';
 
 // eslint-disable-next-line new-cap
-const recognition = new webkitSpeechRecognition();
+const recognition = new webkitSpeechRecognition() || new SpeechRecognition();
+
 recognition.continuous = false;
 recognition.lang = 'en-US';
 recognition.interimResults = true;
@@ -22,13 +23,13 @@ export const useRecognition = () => {
     recognition.onresult = (event) => {
       setText(event.results[0][0].transcript);
     };
-    recognition.onend = () => setIsLoading(false);
+    recognition.onend = () => { console.log('disconnected'); setIsLoading(false); };
     recognition.onerror = (err) => { setError(new Error(err.message)); setIsLoading(false); };
 
     if (!isLoading) {
       try {
-        recognition.start();
         setIsLoading(true);
+        recognition.start();
       } catch (err) {
         console.log(err);
       }
@@ -37,8 +38,8 @@ export const useRecognition = () => {
 
   const stop = () => {
     if (isLoading) {
-      setIsLoading(false);
       recognition.stop();
+      setIsLoading(false);
     }
   };
 

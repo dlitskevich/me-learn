@@ -8,16 +8,18 @@ import { AuxListenButton } from './AuxListenButton';
 
 interface Props{
   phrase:string,
-  refresh: ()=>void
+  refresh: ()=>void,
+  onSuccess: (success:boolean)=>Promise<any>
 }
 
-export const Speech = ({ phrase, refresh }:Props) => {
+export const Speech = ({ phrase, refresh, onSuccess }:Props) => {
   const [success, setSuccess] = useState<boolean|undefined>();
   const succeed = (v:boolean) => { setSuccess(v); };
   const { text, isLoading, start, stop, reset } = useRecognition();
+
   const next = () => {
     if (!isLoading) {
-      reset(); refresh(); setSuccess(undefined); start();
+      onSuccess(!!success).then(() => { reset(); refresh(); setSuccess(undefined); });
     }
   };
 

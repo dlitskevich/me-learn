@@ -4,28 +4,31 @@ import { useAsyncData } from '../../hooks/useAsyncData';
 import { IPhraseInfo } from '../../types/IPhraseInfo';
 import { Speech } from './Speech';
 
-interface Params{
+type Params ={
   courseName:string,
   language:string,
   unit:string
 }
 
+// LearnPage
 export const TrainPage = () => {
   const { language, courseName, unit } = useParams<Params>();
-  const { data, reload } = useAsyncData<IPhraseInfo>(() => getPhrase(language, courseName, unit));
+  const { data, reload } = useAsyncData<IPhraseInfo>(() => getPhrase({ language, courseName, unit }));
 
   if (data) {
     return (
-      <Speech phrase={data.phrase} refresh={reload} />
+      <Speech phrase={data.phrase} refresh={reload} onSuccess={(success) => updateProgress({ success, phrase: data.phrase, language, courseName, unit })} />
     );
   }
   return <span>No data</span>;
 };
 
-const getPhrase = (language:string, courseName:string, unit:string) => getPhraseList(language, courseName, unit)
-  .then((phrases) => phrases[Math.floor(Math.random() * phrases.length)]);
+type Args = Params
 
-const getPhraseList = (language:string, courseName:string, unit:string) => {
+const getPhrase = ({ language, courseName, unit }:Args) => getPhraseList({ language, courseName, unit })
+  .then((phrases) => phrases.find((e) => !e.progress));
+
+const getPhraseList = ({ language, courseName, unit }:Args) => {
   const name = `${language}_${courseName}_${unit}`;
   if (!localStorage.getItem(name)) {
     return import(`../../data/${language}/${courseName}/${unit}`).then((info) => {
@@ -35,3 +38,28 @@ const getPhraseList = (language:string, courseName:string, unit:string) => {
   }
   return Promise.resolve(JSON.parse(localStorage.getItem(name) || '[]'));
 };
+
+const updateProgress = ({ phrase, language, courseName, unit, success }:{phrase:string, success:boolean }&Args) => {
+  if (!success) {
+    return Promise.resolve();
+  }
+  const name = `${language}_${courseName}_${unit}`;
+  const phrases = getPhraseList({ language, courseName, unit });
+  return phrases.then((info) => {
+    const id = info.findIndex((e) => e.phrase === phrase);
+    const updated = info;
+    updated[id].progress = 100;
+    localStorage.setItem(name, JSON.stringify(updated));
+  });
+};
+
+// const updateProgressUnit = (language, courseName, unit) => {
+//   const name = `info_${language}_${courseName}`;
+//   const phrases = getPhraseList({ language, courseName, unit });
+//   return phrases.then((info) => {
+//     const id = info.findIndex((e) => e.unit === unit);
+//     const updated = info;
+//     updated[id].progress = 100;
+//     localStorage.setItem(name, JSON.stringify(updated));
+//   });
+// };
