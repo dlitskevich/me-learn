@@ -25,3 +25,18 @@ const getLanguageCourseList : () => Promise<ILanguageCourse[]> = () => {
   }
   return Promise.resolve(JSON.parse(localStorage.getItem(name) || '[]'));
 };
+
+export const updateLanguageInfo = (language:string, filename:string) => {
+  const name = 'info_language';
+  const data = getLanguageCourseList();
+  return data.then((info) => {
+    const langInfo = info.find((e) => e.language === language);
+    if (langInfo) {
+      const courseInfo = langInfo.data.find((e) => e.filename === filename);
+      if (courseInfo) {
+        courseInfo.progress = courseInfo.progress ? courseInfo.progress + 1 : 1;
+        localStorage.setItem(name, JSON.stringify(info));
+      }
+    }
+  });
+};

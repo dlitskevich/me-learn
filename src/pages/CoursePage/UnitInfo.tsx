@@ -8,7 +8,7 @@ export const UnitInfo = ({ title, filename, progress }:IUnitInfo) => {
     <NavLink to={`${url}/${filename}`} className="unit-info container d-flex align-text-bottom">
       <span>{title}</span>
       <span className="ms-auto ">
-        {`${progress || 0} %`}
+        {`${progress} %`}
       </span>
     </NavLink>
   );

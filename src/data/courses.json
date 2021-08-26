@@ -6,13 +6,13 @@
             {
                 "id": 1,
                 "title": "1000 Basic Phrases",
-                "link": "basic-phrases",
+                "filename": "basic-phrases",
                 "progress": 0
             },
             {
                 "id": 2,
                 "title": "1000 Non=Basic Phrases",
-                "link": "basic-phrases",
+                "filename": "basic-phrases",
                 "progress": 0
             }
         ]
@@ -24,13 +24,13 @@
             {
                 "id": 1,
                 "title": "1000 Basic Phrases",
-                "link": "basic-phrases",
+                "filename": "basic-phrases",
                 "progress": 0
             },
             {
                 "id": 2,
                 "title": "1000 Non=Basic Phrases",
-                "link": "basic-phrases",
+                "filename": "basic-phrases",
                 "progress": 0
             }
         ]

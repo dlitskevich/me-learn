@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useAsyncData } from '../../hooks/useAsyncData';
 import { IPhraseInfo } from '../../types/IPhraseInfo';
+import { updateUnitInfo } from '../CoursePage';
 import { Speech } from './Speech';
 
 type Params ={
@@ -50,7 +51,7 @@ const updateProgress = ({ phrase, language, courseName, unit, success }:{phrase:
     const updated = info;
     updated[id].progress = 100;
     localStorage.setItem(name, JSON.stringify(updated));
-  });
+  }).then(() => updateUnitInfo(language, courseName, unit));
 };
 
 // const updateProgressUnit = (language, courseName, unit) => {

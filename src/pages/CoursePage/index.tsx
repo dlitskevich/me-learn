@@ -4,6 +4,7 @@ import { IUnitInfo } from '../../types/IUnitInfo';
 import { UnitInfo } from './UnitInfo';
 import './index.css';
 import { AsyncList } from '../../components/AsyncList';
+import { updateLanguageInfo } from '../CourseListPage';
 
 interface Params{
   courseName:string,
@@ -23,7 +24,7 @@ export const CoursePage = () => {
   );
 };
 
-const renderUnitInfo = (el:IUnitInfo) => <UnitInfo key={`lang_courses_${el.title}`} title={el.title} filename={el.filename} />;
+const renderUnitInfo = (el:IUnitInfo) => <UnitInfo key={`lang_courses_${el.title}`} title={el.title} filename={el.filename} progress={el.progress || 0} />;
 
 const getUnitInfoList = (language:string, courseName:string) => {
   const name = `info_${language}_${courseName}`;
@@ -34,4 +35,18 @@ const getUnitInfoList = (language:string, courseName:string) => {
     });
   }
   return Promise.resolve(JSON.parse(localStorage.getItem(name) || '[]'));
+};
+
+export const updateUnitInfo = (language:string, courseName:string, unitName:string) => {
+  const name = `info_${language}_${courseName}`;
+  const data = getUnitInfoList(language, courseName);
+  return data.then((info) => {
+    const unit = info.find((e) => e.filename === unitName);
+    console.log(unit, language, courseName);
+
+    if (unit) {
+      unit.progress = unit.progress ? unit.progress + 1 : 1;
+      localStorage.setItem(name, JSON.stringify(info));
+    }
+  }).then(() => updateLanguageInfo(language, courseName));
 };

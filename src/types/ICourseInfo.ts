@@ -2,6 +2,6 @@ export interface ICourseInfo{
     id:number,
     language:string,
     title:string,
-    link:string,
+    filename:string,
     progress?:number
 }

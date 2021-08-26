@@ -9,6 +9,7 @@ import { AuxListenButton } from './AuxListenButton';
 interface Props{
   phrase:string,
   refresh: ()=>void,
+  // eslint-disable-next-line no-unused-vars
   onSuccess: (success:boolean)=>Promise<any>
 }
 
@@ -19,7 +20,16 @@ export const Speech = ({ phrase, refresh, onSuccess }:Props) => {
 
   const next = () => {
     if (!isLoading) {
-      onSuccess(!!success).then(() => { reset(); refresh(); setSuccess(undefined); });
+      onSuccess(!!success).then(() => {
+        reset(); refresh(); setSuccess(undefined);
+      });
+    }
+  };
+  const testNext = () => {
+    if (!isLoading) {
+      onSuccess(true).then(() => {
+        reset(); refresh(); setSuccess(undefined);
+      });
     }
   };
 
@@ -30,6 +40,11 @@ export const Speech = ({ phrase, refresh, onSuccess }:Props) => {
       </h1>
       <p>{text}</p>
       <div id="control-panel">
+        <div className="mb-2 d-flex justify-content-center">
+          <button type="button" className="btn btn-outline-secondary" onClick={testNext}>
+            Test Skip
+          </button>
+        </div>
         <div className="mb-2 d-flex justify-content-center">
           <AuxListenButton isLoading={isLoading} start={start} next={next} success={success} />
         </div>
