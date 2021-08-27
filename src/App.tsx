@@ -12,6 +12,7 @@ import { LearnPhrasePage } from './pages/LearnPhrasePage';
 import { CourseListPage } from './pages/CourseListPage';
 import { CoursePage } from './pages/CoursePage';
 import { UnitPage } from './pages/UnitPage';
+import { TrainExercisePage } from './pages/TrainExercisePage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/courses/:language/:courseName" exact component={CoursePage} />
             <Route path="/courses/:language/:courseName/:unit" component={UnitPage} />
             <Route path="/train/:language/:courseName/:unit" component={LearnPhrasePage} />
+            <Route path="/train" component={TrainExercisePage} />
             <Route component={Error} />
           </Switch>
         </div>
