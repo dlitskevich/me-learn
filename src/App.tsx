@@ -8,7 +8,7 @@ import { Home } from './components/Home';
 import { Error } from './components/Error';
 import { LearnPage } from './pages/LearnPage';
 import { useUser } from './hooks/useUser';
-import { TrainPage } from './pages/TrainPage';
+import { LearnPhrasePage } from './pages/LearnPhrasePage';
 import { CourseListPage } from './pages/CourseListPage';
 import { CoursePage } from './pages/CoursePage';
 import { UnitPage } from './pages/UnitPage';
@@ -25,7 +25,7 @@ function App() {
             <Route path="/courses" exact component={CourseListPage} />
             <Route path="/courses/:language/:courseName" exact component={CoursePage} />
             <Route path="/courses/:language/:courseName/:unit" component={UnitPage} />
-            <Route path="/train/:language/:courseName/:unit" component={TrainPage} />
+            <Route path="/train/:language/:courseName/:unit" component={LearnPhrasePage} />
             <Route component={Error} />
           </Switch>
         </div>

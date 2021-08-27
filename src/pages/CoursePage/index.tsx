@@ -42,7 +42,6 @@ export const updateUnitInfo = (language:string, courseName:string, unitName:stri
   const data = getUnitInfoList(language, courseName);
   return data.then((info) => {
     const unit = info.find((e) => e.filename === unitName);
-    console.log(unit, language, courseName);
 
     if (unit) {
       unit.progress = unit.progress ? unit.progress + 1 : 1;

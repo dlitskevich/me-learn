@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useAsyncData } from '../../hooks/useAsyncData';
 import { IPhraseInfo } from '../../types/IPhraseInfo';
 import { updateUnitInfo } from '../CoursePage';
-import { Speech } from './Speech';
+import { Speech } from '../SpeechModule/index';
 
 type Params ={
   courseName:string,
@@ -12,7 +12,7 @@ type Params ={
 }
 
 // LearnPage
-export const TrainPage = () => {
+export const LearnPhrasePage = () => {
   const { language, courseName, unit } = useParams<Params>();
   const { data, reload } = useAsyncData<IPhraseInfo>(() => getPhrase({ language, courseName, unit }));
 
