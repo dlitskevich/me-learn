@@ -12,25 +12,16 @@ interface Verb{
   '3rdPret'?: string
 }
 
-interface Verbs{
-  _version:number,
-  data:{[word:string]:Verb}
-}
-
 export const LearnPage = () => {
   const [state, setState] = useState(false);
   const refresh = () => {
     setState(!state);
   };
   return (
-    <Learn word={getData()} refresh={refresh} />
+    <Learn word={getData().verb} refresh={refresh} />
   );
 };
 
-const dict:Verbs = JSON.parse(localStorage.getItem('verbs') || '{}');
+const verbs:Verb[] = JSON.parse(localStorage.getItem('en_verbs') || '[]');
 
-const getData = () => {
-  console.log(Object.keys(dict.data)[2]);
-
-  return Object.keys(dict.data)[Math.floor(100 * Math.random())];
-};
+const getData = () => verbs[Math.floor(verbs.length * Math.random())];

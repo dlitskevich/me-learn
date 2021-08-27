@@ -10,11 +10,17 @@ export const TrainExercisePage = () => {
 
   if (data) {
     return (
-      <Speech phrase={data} refresh={reload} onSuccess={() => Promise.resolve()} />
+      <Speech phrase={data.target} task={getTask(data.emoji)} refresh={reload} onSuccess={() => Promise.resolve()} />
     );
   }
   return <span>No data</span>;
 };
+
+const getTask = (task:string) => () => (
+  <h1>
+    {task}
+  </h1>
+);
 
 const getPhrase = () => getVerb().then((v) => {
   console.log(v);
@@ -26,9 +32,9 @@ const getVerb = () => getVerbList()
   .then((verbs) => verbs[Math.floor(Math.random() * verbs.length)]);
 
 const getVerbList : ()=>Promise<EnVerb[]> = () => {
-  const name = 'en_verbs';
+  const name = 'en_verbs10';
   if (!localStorage.getItem(name)) {
-    return import('../../data/enVerb.json').then((info) => {
+    return import('../../data/enVerb10.json').then((info) => {
       const { data } = info.default;
       localStorage.setItem(name, JSON.stringify(data));
       return data;

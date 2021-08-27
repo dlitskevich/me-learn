@@ -5,18 +5,22 @@ import { MainListenButton } from './MainListenButton';
 import { SameText } from './SameText';
 import './index.css';
 import { AuxListenButton } from './AuxListenButton';
+import { useSameText } from '../../hooks/useSameText';
 
 interface Props{
   phrase:string,
   refresh: ()=>void,
   // eslint-disable-next-line no-unused-vars
-  onSuccess: (success:boolean)=>Promise<any>
+  onSuccess: (success:boolean)=>Promise<any>,
+  // eslint-disable-next-line no-unused-vars
+  task?: ({ phrase, words, isRecognised }:{phrase:string, words:string[], isRecognised:(i:number) => boolean|undefined})=>React.ReactNode
 }
 
-export const Speech = ({ phrase, refresh, onSuccess }:Props) => {
+export const Speech = ({ phrase, refresh, onSuccess, task }:Props) => {
   const [success, setSuccess] = useState<boolean|undefined>();
-  const succeed = (v:boolean) => { setSuccess(v); };
+  const succeed = (v:boolean|undefined) => { setSuccess(v); };
   const { text, isLoading, start, stop, reset } = useRecognition();
+  const { words, isRecognised } = useSameText({ phrase, recieved: text, onSuccess: succeed });
 
   const next = () => {
     if (!isLoading) {
@@ -35,9 +39,12 @@ export const Speech = ({ phrase, refresh, onSuccess }:Props) => {
 
   return (
     <div className="container" style={{ maxWidth: '768px' }}>
-      <h1>
-        <SameText phrase={phrase} recieved={text} onSuccess={succeed} />
-      </h1>
+      {task ? task({ phrase, words, isRecognised })
+        : (
+          <h1>
+            <SameText words={words} isRecognised={isRecognised} />
+          </h1>
+        )}
       <p>{text}</p>
       <div id="control-panel">
         <div className="mb-2 d-flex justify-content-center">
@@ -54,4 +61,12 @@ export const Speech = ({ phrase, refresh, onSuccess }:Props) => {
       </div>
     </div>
   );
+};
+
+Speech.defaultProps = {
+  task: ({ words, isRecognised }) => (
+    <h1>
+      <SameText words={words} isRecognised={isRecognised} />
+    </h1>
+  ),
 };

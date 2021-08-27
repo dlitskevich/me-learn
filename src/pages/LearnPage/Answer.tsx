@@ -10,7 +10,6 @@ interface Props{
   onClick: ()=>void
 }
 export const Answer = ({ word, content, value, keyValue, onClick }:Props) => {
-  console.log(keyValue);
   useKeyUp(`${keyValue}`, () => { addWord(word, value); onClick(); });
 
   return (

@@ -1,48 +1,27 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { UtterText } from '../../components/UtterText';
 
 interface Props{
-    phrase:string,
-    recieved: string,
-    // eslint-disable-next-line no-unused-vars
-    onSuccess: (v:boolean) => void
+  words:string[],
+  // eslint-disable-next-line no-unused-vars
+  isRecognised: (i:number) => boolean|undefined
 }
 
-export const SameText = ({ phrase, recieved, onSuccess }:Props) => {
-  const words = phrase.split(' ');
-  const recievedWords = recieved ? recieved.split(' ') : [];
-  useEffect(() => {
-    if (recievedWords.length) {
-      onSuccess(samePhrase(words, recievedWords));
-    }
-  });
-  return (
-    <div className="container d-flex flex-wrap">
-      {words.map((el, i) => (
-        <UtterText key={el} text={el}>
-          <span style={{ color: getColor(el, i, recievedWords) }}>{`${el}`}</span>
-        </UtterText>
-      ))}
-    </div>
-  );
-};
+export const SameText = ({ words, isRecognised }:Props) => (
+  <div className="container d-flex flex-wrap">
+    {words.map((el, i) => (
+      <UtterText key={el} text={el}>
+        <span style={{ color: getColor(i, isRecognised) }}>{`${el}`}</span>
+      </UtterText>
+    ))}
+  </div>
+);
 
-const getColor = (word:string, i:number, recievedWords:string[]) => {
-  if (i < recievedWords.length) {
-    return sameWord(word, recievedWords[i]) ? 'green' : 'red';
+// eslint-disable-next-line no-unused-vars
+const getColor = (i:number, isRecognised:(v:number) => boolean|undefined) => {
+  const val = isRecognised(i);
+  if (val === undefined) {
+    return 'black';
   }
-  return 'black';
+  return val ? 'green' : 'red';
 };
-
-const samePhrase = (words:string[], recievedWords:string[]) => {
-  if (words.length > recievedWords.length) {
-    return false;
-  }
-  // eslint-disable-next-line max-len
-  const sameCount = words.reduce((prev, cur, i) => prev + (sameWord(cur, recievedWords[i]) ? 1 : 0), 0);
-  return sameCount / words.length > 0.7;
-};
-
-const sameWord = (word:string, recieved:string) => wordToNorm(word) === wordToNorm(recieved);
-
-const wordToNorm = (word:string) => word.toLowerCase().replace(/[.,!?()]/g, '');
