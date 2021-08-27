@@ -19,7 +19,7 @@ export const UnitPage = () => {
       <NavLink to={`/train/${language}/${courseName}/${unit}`}>
         <h2>Train Speech</h2>
       </NavLink>
-      <div>
+      <div className="phrase-info-container">
         <AsyncList<IPhraseInfo> get={() => getUnitInfoList(language, courseName, unit)} renderItem={renderPhraseInfo} />
       </div>
     </div>

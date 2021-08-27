@@ -50,7 +50,7 @@ const updateProgress = ({ phrase, language, courseName, unit, success }:{phrase:
     const id = info.findIndex((e) => e.phrase === phrase);
     const updated = info;
     updated[id].progress = 100;
-    localStorage.setItem(name, JSON.stringify(updated));
+    localStorage.setItem(name, JSON.stringify(updated.sort((a, b) => a.progress - b.progress)));
   }).then(() => updateUnitInfo(language, courseName, unit));
 };
 

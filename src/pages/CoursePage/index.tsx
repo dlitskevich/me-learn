@@ -2,9 +2,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { IUnitInfo } from '../../types/IUnitInfo';
 import { UnitInfo } from './UnitInfo';
-import './index.css';
 import { AsyncList } from '../../components/AsyncList';
 import { updateLanguageInfo } from '../CourseListPage';
+import './index.css';
 
 interface Params{
   courseName:string,
@@ -16,7 +16,7 @@ export const CoursePage = () => {
   return (
     <div className="container pb-1">
       <h1>{courseName.charAt(0).toUpperCase() + courseName.substring(1).replace(/-/g, ' ')}</h1>
-      <div>
+      <div className="unit-info-container">
         <AsyncList<IUnitInfo> get={() => getUnitInfoList(language, courseName)} renderItem={renderUnitInfo} />
       </div>
     </div>
@@ -24,7 +24,7 @@ export const CoursePage = () => {
   );
 };
 
-const renderUnitInfo = (el:IUnitInfo) => <UnitInfo key={`lang_courses_${el.title}`} title={el.title} filename={el.filename} progress={el.progress || 0} />;
+const renderUnitInfo = (el:IUnitInfo) => <UnitInfo key={`lang_courses_${el.title}`} title={el.title} filename={el.filename} total={el.total} progress={el.progress || 0} />;
 
 const getUnitInfoList = (language:string, courseName:string) => {
   const name = `info_${language}_${courseName}`;
