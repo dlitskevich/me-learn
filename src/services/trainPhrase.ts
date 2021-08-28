@@ -57,7 +57,9 @@ export const getTrainPhrase = (verb:EnVerb) => {
   };
 };
 
-const replacements = [{ from: ' willn\'t ', to: ' won\'t ' }];
+const replacements = [
+  { from: '  ', to: ' ' },
+];
 
 const replace = (phrase:string) => replacements.reduce((acc, e) => acc.replaceAll(`${e.from}`, e.to), phrase);
 
@@ -87,7 +89,7 @@ const constructPhrase = ({ verb, struct, subj, obj }:PhraseInfo) => {
   if (struct.question) {
     phrase = `${getModal(struct, true)} ${subj} ${getVerb(verb, struct)} ${obj}?`;
   } else if (struct.negative) {
-    phrase = `${subj} ${getModal(struct, true)}${Math.random() < 0.7 ? 'n\'t' : ' not'} ${getVerb(verb, struct)} ${obj}.`;
+    phrase = `${subj} ${getModal(struct, true)} not ${getVerb(verb, struct)} ${obj}.`;
   } else {
     phrase = `${subj} ${getModal(struct)} ${getVerb(verb, struct)} ${obj}.`;
   }

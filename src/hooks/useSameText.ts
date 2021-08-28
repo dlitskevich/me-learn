@@ -8,8 +8,8 @@ interface Props{
 }
 
 export const useSameText = ({ phrase, recieved, onSuccess }:Props) => {
-  const words = phrase.split(' ');
-  const recievedWords = recieved ? recieved.split(' ') : [];
+  const words = normPhrase(phrase).split(' ');
+  const recievedWords = recieved ? normPhrase(recieved).split(' ') : [];
   useEffect(() => {
     onSuccess(samePhrase(words, recievedWords));
   });
@@ -37,4 +37,11 @@ const samePhrase = (words:string[], recievedWords:string[]) => {
 
 const sameWord = (word:string, recieved:string) => wordToNorm(word) === wordToNorm(recieved);
 
-const wordToNorm = (word:string) => word.toLowerCase().replace(/[.,!?()]/g, '');
+const wordToNorm = (word:string) => word.replace(/[.,!?()]/g, '');
+
+const replacements = [
+  { from: 'won\'t', to: 'will not' },
+  { from: 'n\'t', to: ' not' },
+];
+
+const normPhrase = (phrase:string) => (replacements.reduce((acc, e) => acc.replaceAll(`${e.from}`, e.to), phrase.toLowerCase()));
