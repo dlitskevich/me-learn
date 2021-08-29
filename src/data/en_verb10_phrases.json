@@ -1,0 +1,2414 @@
+[
+    {
+        "phrase": "She did not like him.",
+        "ru": "\u041e\u043d \u0435\u0439 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f."
+    },
+    {
+        "phrase": "He will like him.",
+        "ru": "\u041e\u043d \u0435\u043c\u0443 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "They will not like her.",
+        "ru": "\u041e\u043d\u0430 \u0438\u043c \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "They liked him.",
+        "ru": "\u041e\u043d \u0438\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f."
+    },
+    {
+        "phrase": "He likes her.",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "Did she like her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0439 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c?"
+    },
+    {
+        "phrase": "I do not like her.",
+        "ru": "\u041e\u043d\u0430 \u043c\u043d\u0435 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "They will not like him.",
+        "ru": "\u041e\u043d \u0438\u043c \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "He did not like him.",
+        "ru": "\u041e\u043d \u0435\u043c\u0443 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f."
+    },
+    {
+        "phrase": "She likes them.",
+        "ru": "\u0415\u0439 \u043e\u043d\u0438 \u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "She does not like them.",
+        "ru": "\u0415\u0439 \u043e\u043d\u0438 \u043d\u0435 \u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "Does she like him?",
+        "ru": "\u041e\u043d \u0435\u0439 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "She likes him.",
+        "ru": "\u041e\u043d \u0435\u0439 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "He will not like them.",
+        "ru": "\u0415\u043c\u0443 \u043e\u043d\u0438 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "He likes them.",
+        "ru": "\u0415\u043c\u0443 \u043e\u043d\u0438 \u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "They will like her.",
+        "ru": "\u041e\u043d\u0430 \u0438\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "I did not like them.",
+        "ru": "\u041e\u043d\u0438 \u043c\u043d\u0435 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0438\u0441\u044c."
+    },
+    {
+        "phrase": "Will you like him?",
+        "ru": "\u041e\u043d \u0442\u0435\u0431\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "They like her.",
+        "ru": "\u041e\u043d\u0430 \u0438\u043c \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "Do I like her?",
+        "ru": "\u041e\u043d\u0430 \u043c\u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "They will like them.",
+        "ru": "\u041e\u043d\u0438 \u0438\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "I did not like him.",
+        "ru": "\u041e\u043d \u043c\u043d\u0435 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f."
+    },
+    {
+        "phrase": "Do you like her?",
+        "ru": "\u041e\u043d\u0430 \u0442\u0435\u0431\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Did he like her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c?"
+    },
+    {
+        "phrase": "Will you like her?",
+        "ru": "\u041e\u043d\u0430 \u0442\u0435\u0431\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "She will not like him.",
+        "ru": "\u041e\u043d \u0435\u0439 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "He does not like him.",
+        "ru": "\u041e\u043d \u0435\u043c\u0443 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "They do not like them.",
+        "ru": "\u041e\u043d\u0438 \u0438\u043c \u043d\u0435 \u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "Will she like them?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0439 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Do they like them?",
+        "ru": "\u041e\u043d\u0438 \u0438\u043c \u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "He does not like them.",
+        "ru": "\u0415\u043c\u0443 \u043e\u043d\u0438 \u043d\u0435 \u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "He did not like her.",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c."
+    },
+    {
+        "phrase": "Did I like them?",
+        "ru": "\u041c\u043d\u0435 \u043e\u043d\u0438 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0438\u0441\u044c?"
+    },
+    {
+        "phrase": "Will I like him?",
+        "ru": "\u041e\u043d \u043c\u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "You will like her.",
+        "ru": "\u041e\u043d\u0430 \u0442\u0435\u0431\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "Did she like him?",
+        "ru": "\u041e\u043d \u0435\u0439 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f?"
+    },
+    {
+        "phrase": "Will she like her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0439 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Will I like them?",
+        "ru": "\u041e\u043d\u0438 \u043c\u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Will he like them?",
+        "ru": "\u041e\u043d\u0438 \u0435\u043c\u0443 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Do you like them?",
+        "ru": "\u0422\u0435\u0431\u0435 \u043e\u043d\u0438 \u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "They liked them.",
+        "ru": "\u041e\u043d\u0438 \u0438\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0438\u0441\u044c."
+    },
+    {
+        "phrase": "Will he like him?",
+        "ru": "\u041e\u043d \u0435\u043c\u0443 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "She did not like them.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0439 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0438\u0441\u044c."
+    },
+    {
+        "phrase": "I will not like them.",
+        "ru": "\u041e\u043d\u0438 \u043c\u043d\u0435 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "You did not like her.",
+        "ru": "\u041e\u043d\u0430 \u0442\u0435\u0431\u0435 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c."
+    },
+    {
+        "phrase": "Does she like her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0439 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "You will like him.",
+        "ru": "\u041e\u043d \u0442\u0435\u0431\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "She will like him.",
+        "ru": "\u041e\u043d \u0435\u0439 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "She did not like her.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0439 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c."
+    },
+    {
+        "phrase": "They do not like him.",
+        "ru": "\u041e\u043d \u0438\u043c \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "I liked him.",
+        "ru": "\u041e\u043d \u043c\u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f."
+    },
+    {
+        "phrase": "You did not like him.",
+        "ru": "\u041e\u043d \u0442\u0435\u0431\u0435 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f."
+    },
+    {
+        "phrase": "I will not like her.",
+        "ru": "\u041e\u043d\u0430 \u043c\u043d\u0435 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "You liked him.",
+        "ru": "\u041e\u043d \u0442\u0435\u0431\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f."
+    },
+    {
+        "phrase": "They will not like them.",
+        "ru": "\u041e\u043d\u0438 \u0438\u043c \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "You will not like them.",
+        "ru": "\u041e\u043d\u0438 \u0442\u0435\u0431\u0435 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "He will like her.",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "You do not like her.",
+        "ru": "\u041e\u043d\u0430 \u0442\u0435\u0431\u0435 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "Will he like her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "I will not like him.",
+        "ru": "\u041e\u043d \u043c\u043d\u0435 \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "Did you like them?",
+        "ru": "\u041e\u043d\u0438 \u0442\u0435\u0431\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0438\u0441\u044c?"
+    },
+    {
+        "phrase": "I liked her.",
+        "ru": "\u041e\u043d\u0430 \u043c\u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c."
+    },
+    {
+        "phrase": "Will they like them?",
+        "ru": "\u041e\u043d\u0438 \u0438\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "They did not like her.",
+        "ru": "\u041e\u043d\u0430 \u0438\u043c \u043d\u0435 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c."
+    },
+    {
+        "phrase": "I did not see him.",
+        "ru": "\u042f \u0435\u0433\u043e \u043d\u0435 \u0432\u0438\u0434\u0435\u043b."
+    },
+    {
+        "phrase": "She sees him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "Will they see them?",
+        "ru": "\u041e\u043d\u0438 \u0438\u0445 \u0443\u0432\u0438\u0434\u044f\u0442?"
+    },
+    {
+        "phrase": "She did not see them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u0432\u0438\u0434\u0435\u043b\u0430."
+    },
+    {
+        "phrase": "I saw them.",
+        "ru": "\u042f \u0432\u0438\u0434\u0435\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "Did she see him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0432\u0438\u0434\u0435\u043b\u0430?"
+    },
+    {
+        "phrase": "They saw her.",
+        "ru": "\u041e\u043d\u0438 \u0432\u0438\u0434\u0435\u043b\u0438 \u0435\u0435."
+    },
+    {
+        "phrase": "You do not see them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u043d\u0435 \u0432\u0438\u0434\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "I will not see her.",
+        "ru": "\u042f \u0435\u0451 \u043d\u0435 \u0443\u0432\u0438\u0436\u0443."
+    },
+    {
+        "phrase": "Do I see them?",
+        "ru": "\u042f \u0438\u0445 \u0432\u0438\u0436\u0443?"
+    },
+    {
+        "phrase": "They will not see them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0432\u0438\u0434\u044f\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "You see her.",
+        "ru": "\u0422\u044b \u0435\u0451 \u0432\u0438\u0434\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "Did he see him?",
+        "ru": "\u041e\u043d \u0432\u0438\u0434\u0435\u043b \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "She did not see her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0432\u0438\u0434\u0435\u043b\u0430 \u0435\u0435."
+    },
+    {
+        "phrase": "Do you see her?",
+        "ru": "\u0422\u044b \u0435\u0451 \u0432\u0438\u0434\u0438\u0448\u044c?"
+    },
+    {
+        "phrase": "Will he see them?",
+        "ru": "\u041e\u043d \u0438\u0445 \u0443\u0432\u0438\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "You did not see them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u043d\u0435 \u0432\u0438\u0434\u0435\u043b."
+    },
+    {
+        "phrase": "They do not see them.",
+        "ru": "\u041e\u043d\u0438 \u0438\u0445 \u043d\u0435 \u0432\u0438\u0434\u044f\u0442."
+    },
+    {
+        "phrase": "He did not see her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0435 \u0432\u0438\u0434\u0435\u043b."
+    },
+    {
+        "phrase": "He sees them.",
+        "ru": "\u041e\u043d \u0438\u0445 \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "You saw them.",
+        "ru": "\u0422\u044b \u0432\u0438\u0434\u0435\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "He does not see them.",
+        "ru": "\u041e\u043d \u0438\u0445 \u043d\u0435 \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "Does he see them?",
+        "ru": "\u041e\u043d \u0438\u0445 \u0432\u0438\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "You do not see him.",
+        "ru": "\u0422\u044b \u0435\u0433\u043e \u043d\u0435 \u0432\u0438\u0434\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "She will not see them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u0443\u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "He will see them.",
+        "ru": "\u041e\u043d \u0443\u0432\u0438\u0434\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "Did he see her?",
+        "ru": "\u041e\u043d \u0435\u0451 \u0432\u0438\u0434\u0435\u043b?"
+    },
+    {
+        "phrase": "Will I see them?",
+        "ru": "\u042f \u0438\u0445 \u0443\u0432\u0438\u0436\u0443?"
+    },
+    {
+        "phrase": "Will she see her?",
+        "ru": "\u041e\u043d\u0430 \u0443\u0432\u0438\u0434\u0438\u0442 \u0435\u0435?"
+    },
+    {
+        "phrase": "He will not see him.",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u043d\u0435 \u0443\u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "Will he see him?",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u0443\u0432\u0438\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "She does not see her.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0451 \u043d\u0435 \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "She does not see them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "Will he see her?",
+        "ru": "\u041e\u043d \u0435\u0451 \u0443\u0432\u0438\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "Did you see him?",
+        "ru": "\u0422\u044b \u0432\u0438\u0434\u0435\u043b \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Does she see her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0451 \u0432\u0438\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "He will see him.",
+        "ru": "\u041e\u043d \u0443\u0432\u0438\u0434\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She will not see her.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0451 \u043d\u0435 \u0443\u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "You see him.",
+        "ru": "\u0422\u044b \u0435\u0433\u043e \u0432\u0438\u0434\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "He sees her.",
+        "ru": "\u041e\u043d \u0432\u0438\u0434\u0438\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "I saw her.",
+        "ru": "\u042f \u0432\u0438\u0434\u0435\u043b \u0435\u0451."
+    },
+    {
+        "phrase": "Will she see him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0443\u0432\u0438\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "You will see her.",
+        "ru": "\u0422\u044b \u0435\u0451 \u0443\u0432\u0438\u0434\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "You do not see her.",
+        "ru": "\u0422\u044b \u0435\u0451 \u043d\u0435 \u0432\u0438\u0434\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "She sees her.",
+        "ru": "\u041e\u043d\u0430 \u0432\u0438\u0434\u0438\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "Do you see them?",
+        "ru": "\u0422\u044b \u0438\u0445 \u0432\u0438\u0434\u0438\u0448\u044c?"
+    },
+    {
+        "phrase": "He will see her.",
+        "ru": "\u041e\u043d \u0443\u0432\u0438\u0434\u0438\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "She will see them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u0443\u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "I do not see them.",
+        "ru": "\u042f \u0438\u0445 \u043d\u0435 \u0432\u0438\u0436\u0443."
+    },
+    {
+        "phrase": "Did she see them?",
+        "ru": "\u041e\u043d\u0430 \u0432\u0438\u0434\u0435\u043b\u0430 \u0438\u0445?"
+    },
+    {
+        "phrase": "Will they see him?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0433\u043e \u0443\u0432\u0438\u0434\u044f\u0442?"
+    },
+    {
+        "phrase": "Will I see him?",
+        "ru": "\u042f \u0435\u0433\u043e \u0443\u0432\u0438\u0436\u0443?"
+    },
+    {
+        "phrase": "You see them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u0432\u0438\u0434\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "You saw her.",
+        "ru": "\u0422\u044b \u0432\u0438\u0434\u0435\u043b \u0435\u0451."
+    },
+    {
+        "phrase": "He does not see him.",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u043d\u0435 \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "I saw him.",
+        "ru": "\u042f \u0432\u0438\u0434\u0435\u043b \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "You did not see him.",
+        "ru": "\u0412\u044b \u0435\u0433\u043e \u043d\u0435 \u0432\u0438\u0434\u0435\u043b\u0438."
+    },
+    {
+        "phrase": "She sees them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "He does not see her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0435 \u0432\u0438\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "You will see them.",
+        "ru": "\u0422\u044b \u0443\u0432\u0438\u0434\u0438\u0448\u044c \u0438\u0445."
+    },
+    {
+        "phrase": "Did she see her?",
+        "ru": "\u041e\u043d\u0430 \u0432\u0438\u0434\u0435\u043b\u0430 \u0435\u0435?"
+    },
+    {
+        "phrase": "She will see her.",
+        "ru": "\u041e\u043d\u0430 \u0443\u0432\u0438\u0434\u0438\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "Did you see her?",
+        "ru": "\u0422\u044b \u0435\u0451 \u0432\u0438\u0434\u0435\u043b?"
+    },
+    {
+        "phrase": "They will not see him.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0433\u043e \u043d\u0435 \u0443\u0432\u0438\u0434\u044f\u0442."
+    },
+    {
+        "phrase": "Will I see her?",
+        "ru": "\u042f \u0435\u0435 \u0443\u0432\u0438\u0436\u0443?"
+    },
+    {
+        "phrase": "Do they see him?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0433\u043e \u0432\u0438\u0434\u044f\u0442?"
+    },
+    {
+        "phrase": "Does she see him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0432\u0438\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "I do not see him.",
+        "ru": "\u042f \u0435\u0433\u043e \u043d\u0435 \u0432\u0438\u0436\u0443."
+    },
+    {
+        "phrase": "You did not meet her.",
+        "ru": "\u0412\u044b \u0441 \u043d\u0435\u0439 \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c."
+    },
+    {
+        "phrase": "He meets her.",
+        "ru": "\u041e\u043d \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "He will meet her.",
+        "ru": "\u041e\u043d \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "They will meet him.",
+        "ru": "\u041e\u043d\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u044f\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Did she meet him?",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0430\u0441\u044c?"
+    },
+    {
+        "phrase": "They did not meet him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "Will I meet him?",
+        "ru": "\u042f \u0432\u0441\u0442\u0440\u0435\u0447\u0443\u0441\u044c \u0441 \u043d\u0438\u043c?"
+    },
+    {
+        "phrase": "Will she meet him?",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "You met him.",
+        "ru": "\u0412\u044b \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c."
+    },
+    {
+        "phrase": "Did you meet them?",
+        "ru": "\u0412\u044b \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c?"
+    },
+    {
+        "phrase": "He does not meet him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "They meet her.",
+        "ru": "\u041e\u043d\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0442\u0441\u044f \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "She did not meet them.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0430\u0441\u044c \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "Will he meet them?",
+        "ru": "\u041e\u043d \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "I will meet her.",
+        "ru": "\u042f \u0432\u0441\u0442\u0440\u0435\u0447\u0443\u0441\u044c \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "You do not meet them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "He meets him.",
+        "ru": "\u041e\u043d \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "Do they meet them?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "You did not meet him.",
+        "ru": "\u0412\u044b \u0441 \u043d\u0438\u043c \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c."
+    },
+    {
+        "phrase": "She will meet them.",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f."
+    },
+    {
+        "phrase": "He will not meet them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "I do not meet her.",
+        "ru": "\u042f \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0441\u044c \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "Did I meet her?",
+        "ru": "\u042f \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0441\u044f \u0441 \u043d\u0435\u0439?"
+    },
+    {
+        "phrase": "You meet them.",
+        "ru": "\u0422\u044b \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0448\u044c\u0441\u044f."
+    },
+    {
+        "phrase": "Will she meet them?",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "He does not meet them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "Do I meet them?",
+        "ru": "\u042f \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0441\u044c \u0441 \u043d\u0438\u043c\u0438?"
+    },
+    {
+        "phrase": "Did I meet them?",
+        "ru": "\u042f \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0441\u044f?"
+    },
+    {
+        "phrase": "You met her.",
+        "ru": "\u0412\u044b \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "She does not meet them.",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0438\u043c\u0438 \u043d\u0435 \u0437\u043d\u0430\u043a\u043e\u043c\u0430."
+    },
+    {
+        "phrase": "She did not meet her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0430\u0441\u044c \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "Will I meet them?",
+        "ru": "\u042f \u0432\u0441\u0442\u0440\u0435\u0447\u0443\u0441\u044c \u0441 \u043d\u0438\u043c\u0438?"
+    },
+    {
+        "phrase": "Does she meet him?",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Did they meet her?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c?"
+    },
+    {
+        "phrase": "She does not meet him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "Will they meet him?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0442\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "He meets them.",
+        "ru": "\u041e\u043d \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "She meets him.",
+        "ru": "\u041e\u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "They meet them.",
+        "ru": "\u041e\u043d\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0442\u0441\u044f \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "They will meet them.",
+        "ru": "\u041e\u043d\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u044f\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "She meets them.",
+        "ru": "\u041e\u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "Will he meet him?",
+        "ru": "\u041e\u043d \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f \u0441 \u043d\u0438\u043c?"
+    },
+    {
+        "phrase": "She meets her.",
+        "ru": "\u041e\u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "Will they meet them?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0442\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "He will not meet him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "Does she meet them?",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "You do not meet her.",
+        "ru": "\u0422\u044b \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0448\u044c\u0441\u044f \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "Does she meet her?",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Did he meet them?",
+        "ru": "\u041e\u043d \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0441\u044f \u0441 \u043d\u0438\u043c\u0438?"
+    },
+    {
+        "phrase": "Does he meet her?",
+        "ru": "\u041e\u043d \u0441 \u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Will they meet her?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0442\u044f\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "She will meet her.",
+        "ru": "\u041e\u043d\u0430 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "She did not meet him.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0430\u0441\u044c \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "You did not meet them.",
+        "ru": "\u0422\u044b \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0441\u044f \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "Does he meet them?",
+        "ru": "\u041e\u043d \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Do they meet him?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Did you meet him?",
+        "ru": "\u0412\u044b \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c?"
+    },
+    {
+        "phrase": "They meet him.",
+        "ru": "\u041e\u043d\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0442\u0441\u044f \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "Do you meet him?",
+        "ru": "\u0422\u044b \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0448\u044c\u0441\u044f?"
+    },
+    {
+        "phrase": "Did they meet them?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0438\u043c\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c?"
+    },
+    {
+        "phrase": "Did they meet him?",
+        "ru": "\u041e\u043d\u0438 \u0441 \u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0438\u0441\u044c?"
+    },
+    {
+        "phrase": "He did not meet them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0441\u044f \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "He did not meet him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043b\u0441\u044f \u0441 \u043d\u0438\u043c."
+    },
+    {
+        "phrase": "I met them.",
+        "ru": "\u042f \u043f\u043e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u043b\u0441\u044f \u0441 \u043d\u0438\u043c\u0438."
+    },
+    {
+        "phrase": "Will she meet her?",
+        "ru": "\u041e\u043d\u0430 \u0441 \u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f?"
+    },
+    {
+        "phrase": "Do I meet him?",
+        "ru": "\u042f \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u044e\u0441\u044c \u0441 \u043d\u0438\u043c?"
+    },
+    {
+        "phrase": "She will not meet her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u0441\u044f \u0441 \u043d\u0435\u0439."
+    },
+    {
+        "phrase": "He loves him.",
+        "ru": "\u041e\u043d \u043b\u044e\u0431\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Did you love him?",
+        "ru": "\u0422\u044b \u043b\u044e\u0431\u0438\u043b\u0430 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "You love him.",
+        "ru": "\u0422\u044b \u043b\u044e\u0431\u0438\u0448\u044c \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Do they love him?",
+        "ru": "\u041e\u043d\u0438 \u043b\u044e\u0431\u044f\u0442 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Did you love her?",
+        "ru": "\u0422\u044b \u043b\u044e\u0431\u0438\u043b \u0435\u0435?"
+    },
+    {
+        "phrase": "Will he love them?",
+        "ru": "\u041e\u043d \u043f\u043e\u043b\u044e\u0431\u0438\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "You will love her.",
+        "ru": "\u0422\u044b \u043f\u043e\u043b\u044e\u0431\u0438\u0448\u044c \u0435\u0435."
+    },
+    {
+        "phrase": "Will you love her?",
+        "ru": "\u0422\u044b \u0435\u0435 \u043f\u043e\u043b\u044e\u0431\u0438\u0448\u044c?"
+    },
+    {
+        "phrase": "Does he love her?",
+        "ru": "\u041e\u043d \u0435\u0451 \u043b\u044e\u0431\u0438\u0442?"
+    },
+    {
+        "phrase": "I loved him.",
+        "ru": "\u042f \u043b\u044e\u0431\u0438\u043b\u0430 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Will they love her?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u043b\u044e\u0431\u044f\u0442 \u0435\u0435?"
+    },
+    {
+        "phrase": "He loves her.",
+        "ru": "\u041e\u043d \u043b\u044e\u0431\u0438\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "He will love them.",
+        "ru": "\u041e\u043d \u043f\u043e\u043b\u044e\u0431\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "I do not love him.",
+        "ru": "\u042f \u043d\u0435 \u043b\u044e\u0431\u043b\u044e \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Did she love them?",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043b\u044e\u0431\u0438\u043b\u0430?"
+    },
+    {
+        "phrase": "Did I love him?",
+        "ru": "\u042f \u043b\u044e\u0431\u0438\u043b\u0430 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "I love them.",
+        "ru": "\u042f \u043b\u044e\u0431\u043b\u044e \u0438\u0445."
+    },
+    {
+        "phrase": "She will love him.",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u043b\u044e\u0431\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Will they love them?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u043b\u044e\u0431\u044f\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "You will love them.",
+        "ru": "\u0422\u044b \u043f\u043e\u043b\u044e\u0431\u0438\u0448\u044c \u0438\u0445."
+    },
+    {
+        "phrase": "They will not love them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u043b\u044e\u0431\u044f\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "She does not love her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043b\u044e\u0431\u0438\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "Do I love him?",
+        "ru": "\u042f \u043b\u044e\u0431\u043b\u044e \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "He loves them.",
+        "ru": "\u041e\u043d \u043b\u044e\u0431\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "He did not love her.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043b\u044e\u0431\u0438\u043b \u0435\u0435."
+    },
+    {
+        "phrase": "Did you love them?",
+        "ru": "\u0422\u044b \u0438\u0445 \u043b\u044e\u0431\u0438\u043b?"
+    },
+    {
+        "phrase": "You loved them.",
+        "ru": "\u0422\u044b \u043b\u044e\u0431\u0438\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "He will love him.",
+        "ru": "\u041e\u043d \u043f\u043e\u043b\u044e\u0431\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She will love her.",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u043b\u044e\u0431\u0438\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "I will not love him.",
+        "ru": "\u042f \u043d\u0435 \u0431\u0443\u0434\u0443 \u043b\u044e\u0431\u0438\u0442\u044c \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "I loved them.",
+        "ru": "\u042f \u043b\u044e\u0431\u0438\u043b\u0430 \u0438\u0445."
+    },
+    {
+        "phrase": "I love her.",
+        "ru": "\u042f \u043b\u044e\u0431\u043b\u044e \u0435\u0435."
+    },
+    {
+        "phrase": "You do not love him.",
+        "ru": "\u0422\u044b \u0435\u0433\u043e \u043d\u0435 \u043b\u044e\u0431\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "Did she love her?",
+        "ru": "\u041e\u043d\u0430 \u043b\u044e\u0431\u0438\u043b\u0430 \u0435\u0435?"
+    },
+    {
+        "phrase": "She loves him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043b\u044e\u0431\u0438\u0442."
+    },
+    {
+        "phrase": "Do you love him?",
+        "ru": "\u0422\u044b \u043b\u044e\u0431\u0438\u0448\u044c \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Will she love him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043f\u043e\u043b\u044e\u0431\u0438\u0442?"
+    },
+    {
+        "phrase": "You do not love them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u043d\u0435 \u043b\u044e\u0431\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "Does he love them?",
+        "ru": "\u041e\u043d \u0438\u0445 \u043b\u044e\u0431\u0438\u0442?"
+    },
+    {
+        "phrase": "He does not love them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043b\u044e\u0431\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "He will not love them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u043b\u044e\u0431\u0438\u0442\u044c \u0438\u0445."
+    },
+    {
+        "phrase": "I do not love her.",
+        "ru": "\u042f \u043d\u0435 \u043b\u044e\u0431\u043b\u044e \u0435\u0435."
+    },
+    {
+        "phrase": "They will not love her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u043b\u044e\u0431\u044f\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "I did not love her.",
+        "ru": "\u042f \u043d\u0435 \u043b\u044e\u0431\u0438\u043b \u0435\u0435."
+    },
+    {
+        "phrase": "You will not love her.",
+        "ru": "\u0422\u044b \u0435\u0435 \u043d\u0435 \u043f\u043e\u043b\u044e\u0431\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "Does he love him?",
+        "ru": "\u041e\u043d \u043b\u044e\u0431\u0438\u0442 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Does she love him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043b\u044e\u0431\u0438\u0442?"
+    },
+    {
+        "phrase": "She will not love him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u043f\u043e\u043b\u044e\u0431\u0438\u0442."
+    },
+    {
+        "phrase": "She will not love them.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u043b\u044e\u0431\u0438\u0442\u044c \u0438\u0445."
+    },
+    {
+        "phrase": "She did not love her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043b\u044e\u0431\u0438\u043b\u0430 \u0435\u0435."
+    },
+    {
+        "phrase": "You did not love her.",
+        "ru": "\u0422\u044b \u043d\u0435 \u043b\u044e\u0431\u0438\u043b \u0435\u0435."
+    },
+    {
+        "phrase": "He does not love her.",
+        "ru": "\u041e\u043d \u0435\u0435 \u043d\u0435 \u043b\u044e\u0431\u0438\u0442."
+    },
+    {
+        "phrase": "You love her.",
+        "ru": "\u0422\u044b \u043b\u044e\u0431\u0438\u0448\u044c \u0435\u0435."
+    },
+    {
+        "phrase": "He did not love him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043b\u044e\u0431\u0438\u043b \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Do they love them?",
+        "ru": "\u041e\u043d\u0438 \u043b\u044e\u0431\u044f\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "They did not love him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043b\u044e\u0431\u0438\u043b\u0438 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Does she love her?",
+        "ru": "\u041e\u043d\u0430 \u043b\u044e\u0431\u0438\u0442 \u0435\u0435?"
+    },
+    {
+        "phrase": "They did not love her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043b\u044e\u0431\u0438\u043b\u0438 \u0435\u0435."
+    },
+    {
+        "phrase": "He did not love them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043b\u044e\u0431\u0438\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "They did not love them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043b\u044e\u0431\u0438\u043b\u0438 \u0438\u0445."
+    },
+    {
+        "phrase": "She loves her.",
+        "ru": "\u041e\u043d\u0430 \u043b\u044e\u0431\u0438\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "You did not love him.",
+        "ru": "\u0422\u044b \u043d\u0435 \u043b\u044e\u0431\u0438\u043b\u0430 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "You did not love them.",
+        "ru": "\u0422\u044b \u043d\u0435 \u043b\u044e\u0431\u0438\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "She will love them.",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u043b\u044e\u0431\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "They do not love her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043b\u044e\u0431\u044f\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "He will not love her.",
+        "ru": "\u041e\u043d \u0435\u0435 \u043d\u0435 \u043f\u043e\u043b\u044e\u0431\u0438\u0442."
+    },
+    {
+        "phrase": "I will not love her.",
+        "ru": "\u042f \u043d\u0435 \u0431\u0443\u0434\u0443 \u043b\u044e\u0431\u0438\u0442\u044c \u0435\u0435."
+    },
+    {
+        "phrase": "I will love them.",
+        "ru": "\u042f \u0431\u0443\u0434\u0443 \u043b\u044e\u0431\u0438\u0442\u044c \u0438\u0445."
+    },
+    {
+        "phrase": "They love him.",
+        "ru": "\u041e\u043d\u0438 \u043b\u044e\u0431\u044f\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Do I know her?",
+        "ru": "\u042f \u0435\u0435 \u0437\u043d\u0430\u044e?"
+    },
+    {
+        "phrase": "Will she know her?",
+        "ru": "\u041e\u043d\u0430 \u0443\u0437\u043d\u0430\u0435\u0442 \u0435\u0435?"
+    },
+    {
+        "phrase": "He knows them.",
+        "ru": "\u041e\u043d \u0438\u0445 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "I will not know them.",
+        "ru": "\u042f \u0438\u0445 \u043d\u0435 \u0443\u0437\u043d\u0430\u044e."
+    },
+    {
+        "phrase": "She will not know her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0443\u0437\u043d\u0430\u0435\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "You know them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u0437\u043d\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "He does not know him.",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u043d\u0435 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "She did not know them.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0437\u043d\u0430\u043b\u0430 \u0438\u0445."
+    },
+    {
+        "phrase": "She knows her.",
+        "ru": "\u041e\u043d\u0430 \u0437\u043d\u0430\u0435\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "Do you know him?",
+        "ru": "\u0412\u044b \u0435\u0433\u043e \u0437\u043d\u0430\u0435\u0442\u0435?"
+    },
+    {
+        "phrase": "You do not know him.",
+        "ru": "\u0422\u044b \u0435\u0433\u043e \u043d\u0435 \u0437\u043d\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "Will she know them?",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u0443\u0437\u043d\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "She knows him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "She will know him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0443\u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "He does not know her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0435 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "He does not know them.",
+        "ru": "\u041e\u043d \u0438\u0445 \u043d\u0435 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "I do not know them.",
+        "ru": "\u042f \u0438\u0445 \u043d\u0435 \u0437\u043d\u0430\u044e."
+    },
+    {
+        "phrase": "She will not know them.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0443\u0437\u043d\u0430\u0435\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "I knew him.",
+        "ru": "\u042f \u0437\u043d\u0430\u043b \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Do you know them?",
+        "ru": "\u0412\u044b \u0438\u0445 \u0437\u043d\u0430\u0435\u0442\u0435?"
+    },
+    {
+        "phrase": "Did he know him?",
+        "ru": "\u041e\u043d \u0437\u043d\u0430\u043b \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "You will not know him.",
+        "ru": "\u0422\u044b \u0435\u0433\u043e \u043d\u0435 \u0443\u0437\u043d\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "He did not know him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0437\u043d\u0430\u043b \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She does not know her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0437\u043d\u0430\u0435\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "He will not know them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0443\u0437\u043d\u0430\u0435\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "I know him.",
+        "ru": "\u042f \u0437\u043d\u0430\u044e \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "You did not know him.",
+        "ru": "\u0412\u044b \u043d\u0435 \u0437\u043d\u0430\u043b\u0438 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "I will not know her.",
+        "ru": "\u042f \u0435\u0451 \u043d\u0435 \u0443\u0437\u043d\u0430\u044e."
+    },
+    {
+        "phrase": "She will not know him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u0443\u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "Did you know them?",
+        "ru": "\u0412\u044b \u0438\u0445 \u0437\u043d\u0430\u043b\u0438?"
+    },
+    {
+        "phrase": "I will know him.",
+        "ru": "\u042f \u0435\u0433\u043e \u0443\u0437\u043d\u0430\u044e."
+    },
+    {
+        "phrase": "She did not know her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0437\u043d\u0430\u043b\u0430 \u0435\u0435."
+    },
+    {
+        "phrase": "You will know her.",
+        "ru": "\u0422\u044b \u0435\u0451 \u0443\u0437\u043d\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "I did not know him.",
+        "ru": "\u042f \u043d\u0435 \u0437\u043d\u0430\u043b \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Does she know her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0451 \u0437\u043d\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "She does not know him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "Did I know him?",
+        "ru": "\u042f \u0435\u0433\u043e \u0437\u043d\u0430\u043b?"
+    },
+    {
+        "phrase": "You know him.",
+        "ru": "\u0422\u044b \u0435\u0433\u043e \u0437\u043d\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "She does not know them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "They did not know him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0437\u043d\u0430\u043b\u0438 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Will I know him?",
+        "ru": "\u042f \u0435\u0433\u043e \u0443\u0437\u043d\u0430\u044e?"
+    },
+    {
+        "phrase": "I do not know her.",
+        "ru": "\u042f \u0435\u0451 \u043d\u0435 \u0437\u043d\u0430\u044e."
+    },
+    {
+        "phrase": "Will he know her?",
+        "ru": "\u041e\u043d \u0435\u0451 \u0443\u0437\u043d\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "Did he know them?",
+        "ru": "\u041e\u043d \u0437\u043d\u0430\u043b \u0438\u0445?"
+    },
+    {
+        "phrase": "Will you know her?",
+        "ru": "\u0412\u044b \u0435\u0435 \u0443\u0437\u043d\u0430\u0435\u0442\u0435?"
+    },
+    {
+        "phrase": "Will he know him?",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u0443\u0437\u043d\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "He did not know her.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0437\u043d\u0430\u043b \u0435\u0435."
+    },
+    {
+        "phrase": "He will not know her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0435 \u0443\u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "They will not know her.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043d\u0435 \u0443\u0437\u043d\u0430\u044e\u0442."
+    },
+    {
+        "phrase": "They will know them.",
+        "ru": "\u041e\u043d\u0438 \u0443\u0437\u043d\u0430\u044e\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "Do I know them?",
+        "ru": "\u042f \u0438\u0445 \u0437\u043d\u0430\u044e?"
+    },
+    {
+        "phrase": "Do they know them?",
+        "ru": "\u041e\u043d\u0438 \u0438\u0445 \u0437\u043d\u0430\u044e\u0442?"
+    },
+    {
+        "phrase": "I know her.",
+        "ru": "\u042f \u0437\u043d\u0430\u044e \u0435\u0435."
+    },
+    {
+        "phrase": "Does she know him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0437\u043d\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "I knew them.",
+        "ru": "\u042f \u0437\u043d\u0430\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "They know her.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u0437\u043d\u0430\u044e\u0442."
+    },
+    {
+        "phrase": "You do not know them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u043d\u0435 \u0437\u043d\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "Will he know them?",
+        "ru": "\u041e\u043d \u0438\u0445 \u0443\u0437\u043d\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "They will not know them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0437\u043d\u0430\u044e\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "He will know him.",
+        "ru": "\u041e\u043d \u0443\u0437\u043d\u0430\u0435\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "He knows her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "Did she know her?",
+        "ru": "\u041e\u043d\u0430 \u0437\u043d\u0430\u043b\u0430 \u0435\u0435?"
+    },
+    {
+        "phrase": "Do you know her?",
+        "ru": "\u0422\u044b \u0435\u0435 \u0437\u043d\u0430\u0435\u0448\u044c?"
+    },
+    {
+        "phrase": "You know her.",
+        "ru": "\u0422\u044b \u0435\u0435 \u0437\u043d\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "She did not know him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u0437\u043d\u0430\u043b\u0430."
+    },
+    {
+        "phrase": "Do they know him?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0433\u043e \u0437\u043d\u0430\u044e\u0442?"
+    },
+    {
+        "phrase": "He will know them.",
+        "ru": "\u041e\u043d \u0443\u0437\u043d\u0430\u0435\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "She knows them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u0437\u043d\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "Does he know him?",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u0437\u043d\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "Will I know her?",
+        "ru": "\u042f \u0435\u0435 \u0443\u0437\u043d\u0430\u044e?"
+    },
+    {
+        "phrase": "They will not know him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0437\u043d\u0430\u044e\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "I will not know him.",
+        "ru": "\u042f \u0435\u0433\u043e \u043d\u0435 \u0443\u0437\u043d\u0430\u044e."
+    },
+    {
+        "phrase": "He finds him.",
+        "ru": "\u041e\u043d \u043d\u0430\u0445\u043e\u0434\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She will not find her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0451\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "I will find them.",
+        "ru": "\u042f \u043d\u0430\u0439\u0434\u0443 \u0438\u0445."
+    },
+    {
+        "phrase": "She did not find her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043d\u0430\u0448\u043b\u0430 \u0435\u0435."
+    },
+    {
+        "phrase": "Will I find him?",
+        "ru": "\u042f \u043d\u0430\u0439\u0434\u0443 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Did he find her?",
+        "ru": "\u041e\u043d \u043d\u0430\u0448\u0435\u043b \u0435\u0435?"
+    },
+    {
+        "phrase": "Does he find them?",
+        "ru": "\u041e\u043d \u0438\u0445 \u043d\u0430\u0445\u043e\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "He did not find him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043d\u0430\u0448\u0435\u043b \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "They find him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0430\u0439\u0434\u0443\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "He will not find him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043d\u0430\u0439\u0434\u0451\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She does not find her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043d\u0430\u0445\u043e\u0434\u0438\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "He finds her.",
+        "ru": "\u041e\u043d \u043d\u0430\u0445\u043e\u0434\u0438\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "They will not find them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043d\u0430\u0439\u0434\u0443\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "Does she find her?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0451 \u043d\u0430\u0445\u043e\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "Does he find him?",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u043d\u0430\u0445\u043e\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "Do I find him?",
+        "ru": "\u042f \u043d\u0430\u0439\u0434\u0443 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Will she find him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0430\u0439\u0434\u0435\u0442?"
+    },
+    {
+        "phrase": "Will you find her?",
+        "ru": "\u0422\u044b \u043d\u0430\u0439\u0434\u0451\u0448\u044c \u0435\u0435?"
+    },
+    {
+        "phrase": "I will not find her.",
+        "ru": "\u042f \u043d\u0435 \u043d\u0430\u0439\u0434\u0443 \u0435\u0435."
+    },
+    {
+        "phrase": "Did you find her?",
+        "ru": "\u0412\u044b \u043d\u0430\u0448\u043b\u0438 \u0435\u0435?"
+    },
+    {
+        "phrase": "Will they find her?",
+        "ru": "\u041e\u043d\u0438 \u043d\u0430\u0439\u0434\u0443\u0442 \u0435\u0435?"
+    },
+    {
+        "phrase": "Will you find him?",
+        "ru": "\u0422\u044b \u043d\u0430\u0439\u0434\u0451\u0448\u044c \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "He does not find him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043d\u0430\u0445\u043e\u0434\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Did they find him?",
+        "ru": "\u041e\u043d\u0438 \u043d\u0430\u0448\u043b\u0438 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "She does not find him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0445\u043e\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "I find them.",
+        "ru": "\u042f \u043d\u0430\u0445\u043e\u0436\u0443 \u0438\u0445."
+    },
+    {
+        "phrase": "I found him.",
+        "ru": "\u042f \u043d\u0430\u0448\u0435\u043b \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "They found them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0430\u0448\u043b\u0438 \u0438\u0445."
+    },
+    {
+        "phrase": "You will find him.",
+        "ru": "\u0422\u044b \u043d\u0430\u0439\u0434\u0435\u0448\u044c \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "You will not find them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "Do I find her?",
+        "ru": "\u042f \u043d\u0430\u0439\u0434\u0443 \u0435\u0435?"
+    },
+    {
+        "phrase": "He will not find her.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043d\u0430\u0439\u0434\u0451\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "You will not find her.",
+        "ru": "\u0422\u044b \u0435\u0451 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "You found them.",
+        "ru": "\u0422\u044b \u043d\u0430\u0448\u0435\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "She did not find him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0448\u043b\u0430."
+    },
+    {
+        "phrase": "They do not find her.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043d\u0435 \u043d\u0430\u0439\u0434\u0443\u0442."
+    },
+    {
+        "phrase": "I find her.",
+        "ru": "\u042f \u043d\u0430\u0439\u0434\u0443 \u0435\u0435."
+    },
+    {
+        "phrase": "He will not find them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043d\u0430\u0439\u0434\u0451\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "Did I find him?",
+        "ru": "\u042f \u043d\u0430\u0448\u0435\u043b \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Do you find him?",
+        "ru": "\u0412\u044b \u043d\u0430\u0448\u043b\u0438 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "I do not find them.",
+        "ru": "\u042f \u0438\u0445 \u043d\u0435 \u043d\u0430\u0445\u043e\u0436\u0443."
+    },
+    {
+        "phrase": "She finds him.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0430\u0448\u043b\u0430 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She finds her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0430\u0445\u043e\u0434\u0438\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "I will not find them.",
+        "ru": "\u042f \u043d\u0435 \u043d\u0430\u0439\u0434\u0443 \u0438\u0445."
+    },
+    {
+        "phrase": "He will find him.",
+        "ru": "\u041e\u043d \u043d\u0430\u0439\u0434\u0435\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She will find her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0430\u0439\u0434\u0435\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "They will not find her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043d\u0430\u0439\u0434\u0443\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "Will I find her?",
+        "ru": "\u042f \u043d\u0430\u0439\u0434\u0443 \u0435\u0435?"
+    },
+    {
+        "phrase": "Does he find her?",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0430\u0445\u043e\u0434\u0438\u0442?"
+    },
+    {
+        "phrase": "They find her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0430\u0439\u0434\u0443\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "He finds them.",
+        "ru": "\u041e\u043d \u043d\u0430\u0445\u043e\u0434\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "She will find them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0430\u0439\u0434\u0435\u0442."
+    },
+    {
+        "phrase": "She does not find them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u043d\u0430\u0445\u043e\u0434\u0438\u0442."
+    },
+    {
+        "phrase": "They did not find her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043d\u0430\u0448\u043b\u0438 \u0435\u0435."
+    },
+    {
+        "phrase": "I will find her.",
+        "ru": "\u042f \u043d\u0430\u0439\u0434\u0443 \u0435\u0435."
+    },
+    {
+        "phrase": "He did not find her.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043d\u0430\u0448\u0435\u043b \u0435\u0435."
+    },
+    {
+        "phrase": "She will not find them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u0442."
+    },
+    {
+        "phrase": "She finds them.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0430\u0445\u043e\u0434\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "They find them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0430\u0445\u043e\u0434\u044f\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "He did not find them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043d\u0430\u0448\u0435\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "Do they find them?",
+        "ru": "\u041e\u043d\u0438 \u0438\u0445 \u043d\u0430\u0445\u043e\u0434\u044f\u0442?"
+    },
+    {
+        "phrase": "Will you find them?",
+        "ru": "\u0422\u044b \u043d\u0430\u0439\u0434\u0451\u0448\u044c \u0438\u0445?"
+    },
+    {
+        "phrase": "They will not find him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043d\u0430\u0439\u0434\u0443\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "You do not call her.",
+        "ru": "\u0422\u044b \u043d\u0435 \u0437\u0432\u043e\u043d\u0438\u0448\u044c \u0435\u0439."
+    },
+    {
+        "phrase": "They called her.",
+        "ru": "\u0415\u0439 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0438."
+    },
+    {
+        "phrase": "Will she call them?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0438\u043c?"
+    },
+    {
+        "phrase": "Did I call her?",
+        "ru": "\u042f \u0435\u0439 \u0437\u0432\u043e\u043d\u0438\u043b?"
+    },
+    {
+        "phrase": "He will not call her.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u0435\u0439 \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "Did they call her?",
+        "ru": "\u0415\u0439 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0438?"
+    },
+    {
+        "phrase": "He calls him.",
+        "ru": "\u041e\u043d \u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u043c\u0443."
+    },
+    {
+        "phrase": "Will he call them?",
+        "ru": "\u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0438\u043c?"
+    },
+    {
+        "phrase": "Did she call him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u0437\u0432\u043e\u043d\u0438\u043b\u0430?"
+    },
+    {
+        "phrase": "Does he call them?",
+        "ru": "\u041e\u043d \u0438\u043c \u0437\u0432\u043e\u043d\u0438\u0442?"
+    },
+    {
+        "phrase": "You will call them.",
+        "ru": "\u0422\u044b \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0448\u044c \u0438\u043c."
+    },
+    {
+        "phrase": "They did not call them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0438 \u0438\u043c."
+    },
+    {
+        "phrase": "He will call her.",
+        "ru": "\u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u0439."
+    },
+    {
+        "phrase": "She will not call them.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u0438\u043c \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "He does not call them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0437\u0432\u043e\u043d\u0438\u0442 \u0438\u043c."
+    },
+    {
+        "phrase": "She will not call her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u0435\u0439 \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "She did not call them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u043c \u043d\u0435 \u0437\u0432\u043e\u043d\u0438\u043b\u0430."
+    },
+    {
+        "phrase": "She did not call him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u043d\u0435 \u0437\u0432\u043e\u043d\u0438\u043b\u0430."
+    },
+    {
+        "phrase": "Did he call her?",
+        "ru": "\u041e\u043d \u0437\u0432\u043e\u043d\u0438\u043b \u0435\u0439?"
+    },
+    {
+        "phrase": "She will call him.",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u043c\u0443."
+    },
+    {
+        "phrase": "I will not call him.",
+        "ru": "\u042f \u043d\u0435 \u0431\u0443\u0434\u0443 \u0435\u043c\u0443 \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "She does not call her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u0439."
+    },
+    {
+        "phrase": "Will they call him?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0437\u0432\u043e\u043d\u044f\u0442 \u0435\u043c\u0443?"
+    },
+    {
+        "phrase": "Did he call them?",
+        "ru": "\u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b \u0438\u043c?"
+    },
+    {
+        "phrase": "I will not call her.",
+        "ru": "\u042f \u043d\u0435 \u0431\u0443\u0434\u0443 \u0435\u0439 \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "Do I call her?",
+        "ru": "\u041c\u043d\u0435 \u0435\u0439 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442\u044c?"
+    },
+    {
+        "phrase": "Will he call him?",
+        "ru": "\u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u043c\u0443?"
+    },
+    {
+        "phrase": "You did not call him.",
+        "ru": "\u0422\u044b \u0435\u043c\u0443 \u043d\u0435 \u0437\u0432\u043e\u043d\u0438\u043b."
+    },
+    {
+        "phrase": "I will not call them.",
+        "ru": "\u042f \u043d\u0435 \u0431\u0443\u0434\u0443 \u0438\u043c \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "You will not call him.",
+        "ru": "\u0422\u044b \u043d\u0435 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0448\u044c \u0435\u043c\u0443."
+    },
+    {
+        "phrase": "Will he call her?",
+        "ru": "\u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u0439?"
+    },
+    {
+        "phrase": "Did they call them?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0438 \u0438\u043c?"
+    },
+    {
+        "phrase": "You will call her.",
+        "ru": "\u041f\u043e\u0437\u0432\u043e\u043d\u0438 \u0435\u0439."
+    },
+    {
+        "phrase": "Did he call him?",
+        "ru": "\u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b \u0435\u043c\u0443?"
+    },
+    {
+        "phrase": "Will she call him?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u043c\u0443?"
+    },
+    {
+        "phrase": "Do you call her?",
+        "ru": "\u0422\u044b \u0435\u0439 \u0437\u0432\u043e\u043d\u0438\u0448\u044c?"
+    },
+    {
+        "phrase": "He calls her.",
+        "ru": "\u041e\u043d \u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u0439."
+    },
+    {
+        "phrase": "She does not call him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u043d\u0435 \u0437\u0432\u043e\u043d\u0438\u0442."
+    },
+    {
+        "phrase": "I call her.",
+        "ru": "\u042f \u0437\u0432\u043e\u043d\u044e \u0435\u0439."
+    },
+    {
+        "phrase": "He calls them.",
+        "ru": "\u041e\u043d \u0437\u0432\u043e\u043d\u0438\u0442 \u0438\u043c."
+    },
+    {
+        "phrase": "Will she call her?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u0439?"
+    },
+    {
+        "phrase": "I do not call her.",
+        "ru": "\u042f \u0435\u0439 \u043d\u0435 \u0437\u0432\u043e\u043d\u044e."
+    },
+    {
+        "phrase": "Will they call her?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0437\u0432\u043e\u043d\u044f\u0442 \u0435\u0439?"
+    },
+    {
+        "phrase": "They do not call her.",
+        "ru": "\u0415\u0439 \u043d\u0435 \u0437\u0432\u043e\u043d\u044f\u0442."
+    },
+    {
+        "phrase": "They do not call him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0437\u0432\u043e\u043d\u044f\u0442 \u0435\u043c\u0443."
+    },
+    {
+        "phrase": "She will not call him.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u0435\u043c\u0443 \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "Did she call them?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0430 \u0438\u043c?"
+    },
+    {
+        "phrase": "You will not call them.",
+        "ru": "\u0422\u044b \u043d\u0435 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0448\u044c \u0438\u043c."
+    },
+    {
+        "phrase": "Does she call him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u043c\u0443 \u0437\u0432\u043e\u043d\u0438\u0442?"
+    },
+    {
+        "phrase": "They will not call her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u0437\u0432\u043e\u043d\u044f\u0442 \u0435\u0439."
+    },
+    {
+        "phrase": "I call him.",
+        "ru": "\u042f \u0437\u0432\u043e\u043d\u044e \u0435\u043c\u0443."
+    },
+    {
+        "phrase": "Did she call her?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0430 \u0435\u0439?"
+    },
+    {
+        "phrase": "She calls her.",
+        "ru": "\u041e\u043d\u0430 \u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u0439."
+    },
+    {
+        "phrase": "He will not call them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0431\u0443\u0434\u0435\u0442 \u0438\u043c \u0437\u0432\u043e\u043d\u0438\u0442\u044c."
+    },
+    {
+        "phrase": "Will I call them?",
+        "ru": "\u042f \u043f\u043e\u0437\u0432\u043e\u043d\u044e \u0438\u043c?"
+    },
+    {
+        "phrase": "Do I call him?",
+        "ru": "\u041c\u043d\u0435 \u0435\u043c\u0443 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442\u044c?"
+    },
+    {
+        "phrase": "They did not call him.",
+        "ru": "\u0415\u043c\u0443 \u043d\u0435 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0438."
+    },
+    {
+        "phrase": "Will you call him?",
+        "ru": "\u041f\u043e\u0437\u0432\u043e\u043d\u0438\u0448\u044c \u0435\u043c\u0443?"
+    },
+    {
+        "phrase": "I do not call them.",
+        "ru": "\u042f \u0438\u043c \u043d\u0435 \u0437\u0432\u043e\u043d\u044e."
+    },
+    {
+        "phrase": "I called him.",
+        "ru": "\u042f \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0430 \u0435\u043c\u0443."
+    },
+    {
+        "phrase": "You called her.",
+        "ru": "\u0422\u044b \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b \u0435\u0439."
+    },
+    {
+        "phrase": "Will you call them?",
+        "ru": "\u041f\u043e\u0437\u0432\u043e\u043d\u0438\u0448\u044c \u0438\u043c?"
+    },
+    {
+        "phrase": "Does he call him?",
+        "ru": "\u041e\u043d \u0435\u043c\u0443 \u0437\u0432\u043e\u043d\u0438\u0442?"
+    },
+    {
+        "phrase": "Did they call him?",
+        "ru": "\u0415\u043c\u0443 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u043b\u0438?"
+    },
+    {
+        "phrase": "He will call him.",
+        "ru": "\u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442 \u0435\u043c\u0443."
+    },
+    {
+        "phrase": "She does not hear her.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0451 \u043d\u0435 \u0441\u043b\u044b\u0448\u0438\u0442."
+    },
+    {
+        "phrase": "Will he hear them?",
+        "ru": "\u041e\u043d \u0443\u0441\u043b\u044b\u0448\u0438\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "Did he hear her?",
+        "ru": "\u041e\u043d \u0441\u043b\u044b\u0448\u0430\u043b \u0435\u0435?"
+    },
+    {
+        "phrase": "They will hear him.",
+        "ru": "\u041e\u043d\u0438 \u0443\u0441\u043b\u044b\u0448\u0430\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "I will not hear him.",
+        "ru": "\u042f \u0435\u0433\u043e \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0443."
+    },
+    {
+        "phrase": "They did not hear them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0430\u043b\u0438 \u0438\u0445."
+    },
+    {
+        "phrase": "He did not hear them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "Will she hear them?",
+        "ru": "\u041e\u043d\u0430 \u0443\u0441\u043b\u044b\u0448\u0438\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "I do not hear them.",
+        "ru": "\u042f \u0438\u0445 \u043d\u0435 \u0441\u043b\u044b\u0448\u0443."
+    },
+    {
+        "phrase": "Do I hear him?",
+        "ru": "\u042f \u0441\u043b\u044b\u0448\u0443 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "I do not hear him.",
+        "ru": "\u042f \u0435\u0433\u043e \u043d\u0435 \u0441\u043b\u044b\u0448\u0443."
+    },
+    {
+        "phrase": "She does not hear him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u0441\u043b\u044b\u0448\u0438\u0442."
+    },
+    {
+        "phrase": "You heard her.",
+        "ru": "\u0422\u044b \u0441\u043b\u044b\u0448\u0430\u043b \u0435\u0451."
+    },
+    {
+        "phrase": "I hear him.",
+        "ru": "\u042f \u0441\u043b\u044b\u0448\u0443 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "I hear them.",
+        "ru": "\u042f \u0438\u0445 \u0441\u043b\u044b\u0448\u0443."
+    },
+    {
+        "phrase": "They did not hear her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0430\u043b\u0438 \u0435\u0435."
+    },
+    {
+        "phrase": "Did he hear him?",
+        "ru": "\u041e\u043d \u0441\u043b\u044b\u0448\u0430\u043b \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "You will hear her.",
+        "ru": "\u0422\u044b \u0435\u0451 \u0443\u0441\u043b\u044b\u0448\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "Will I hear them?",
+        "ru": "\u042f \u0443\u0441\u043b\u044b\u0448\u0443 \u0438\u0445?"
+    },
+    {
+        "phrase": "Do I hear her?",
+        "ru": "\u042f \u0441\u043b\u044b\u0448\u0443 \u0435\u0435?"
+    },
+    {
+        "phrase": "He will hear them.",
+        "ru": "\u041e\u043d \u0443\u0441\u043b\u044b\u0448\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "They do not hear her.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u0442."
+    },
+    {
+        "phrase": "They heard them.",
+        "ru": "\u041e\u043d\u0438 \u0441\u043b\u044b\u0448\u0430\u043b\u0438 \u0438\u0445."
+    },
+    {
+        "phrase": "You do not hear her.",
+        "ru": "\u0422\u044b \u0435\u0435 \u043d\u0435 \u0441\u043b\u044b\u0448\u0438\u0448\u044c."
+    },
+    {
+        "phrase": "I heard them.",
+        "ru": "\u042f \u0441\u043b\u044b\u0448\u0430\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "Will I hear her?",
+        "ru": "\u042f \u0435\u0451 \u0443\u0441\u043b\u044b\u0448\u0443?"
+    },
+    {
+        "phrase": "He hears them.",
+        "ru": "\u041e\u043d \u0438\u0445 \u0441\u043b\u044b\u0448\u0438\u0442."
+    },
+    {
+        "phrase": "You did not hear him.",
+        "ru": "\u0412\u044b \u0435\u0433\u043e \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b\u0438."
+    },
+    {
+        "phrase": "They do not hear him.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0433\u043e \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u0442."
+    },
+    {
+        "phrase": "Did I hear her?",
+        "ru": "\u042f \u0441\u043b\u044b\u0448\u0430\u043b \u0435\u0435?"
+    },
+    {
+        "phrase": "Do you hear him?",
+        "ru": "\u0422\u044b \u0435\u0433\u043e \u0441\u043b\u044b\u0448\u0438\u0448\u044c?"
+    },
+    {
+        "phrase": "She did not hear him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b\u0430."
+    },
+    {
+        "phrase": "I will hear them.",
+        "ru": "\u042f \u0443\u0441\u043b\u044b\u0448\u0443 \u0438\u0445."
+    },
+    {
+        "phrase": "They did not hear him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0430\u043b\u0438 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She will not hear her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0438\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "They will not hear him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0430\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "They heard him.",
+        "ru": "\u041e\u043d\u0438 \u0441\u043b\u044b\u0448\u0430\u043b\u0438 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "He will not hear her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0438\u0442."
+    },
+    {
+        "phrase": "They will not hear them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0430\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "He hears him.",
+        "ru": "\u041e\u043d \u0441\u043b\u044b\u0448\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Did she hear her?",
+        "ru": "\u041e\u043d\u0430 \u0441\u043b\u044b\u0448\u0430\u043b\u0430 \u0435\u0435?"
+    },
+    {
+        "phrase": "I did not hear her.",
+        "ru": "\u042f \u0435\u0451 \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b."
+    },
+    {
+        "phrase": "He does not hear them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u0441\u043b\u044b\u0448\u0438\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "She did not hear them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b\u0430."
+    },
+    {
+        "phrase": "She did not hear her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b\u0430 \u0435\u0435."
+    },
+    {
+        "phrase": "She will hear him.",
+        "ru": "\u041e\u043d\u0430 \u0443\u0441\u043b\u044b\u0448\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She hears him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0441\u043b\u044b\u0448\u0438\u0442."
+    },
+    {
+        "phrase": "She will not hear him.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Does she hear them?",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u0441\u043b\u044b\u0448\u0438\u0442?"
+    },
+    {
+        "phrase": "You heard them.",
+        "ru": "\u0422\u044b \u0441\u043b\u044b\u0448\u0430\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "Will I hear him?",
+        "ru": "\u042f \u0443\u0441\u043b\u044b\u0448\u0443 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "She hears her.",
+        "ru": "\u041e\u043d\u0430 \u0441\u043b\u044b\u0448\u0438\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "Does she hear him?",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u0441\u043b\u044b\u0448\u0438\u0442?"
+    },
+    {
+        "phrase": "I will not hear them.",
+        "ru": "\u042f \u0438\u0445 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0443."
+    },
+    {
+        "phrase": "They will not hear her.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0430\u0442."
+    },
+    {
+        "phrase": "I did not hear them.",
+        "ru": "\u042f \u0438\u0445 \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b."
+    },
+    {
+        "phrase": "Will they hear him?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0433\u043e \u0443\u0441\u043b\u044b\u0448\u0430\u0442?"
+    },
+    {
+        "phrase": "He will hear him.",
+        "ru": "\u041e\u043d \u0443\u0441\u043b\u044b\u0448\u0438\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Does he hear him?",
+        "ru": "\u041e\u043d \u0435\u0433\u043e \u0441\u043b\u044b\u0448\u0438\u0442?"
+    },
+    {
+        "phrase": "I will hear her.",
+        "ru": "\u042f \u0435\u0451 \u0443\u0441\u043b\u044b\u0448\u0443."
+    },
+    {
+        "phrase": "You will not hear him.",
+        "ru": "\u0412\u044b \u0435\u0433\u043e \u043d\u0435 \u0443\u0441\u043b\u044b\u0448\u0438\u0442\u0435."
+    },
+    {
+        "phrase": "I heard him.",
+        "ru": "\u042f \u0441\u043b\u044b\u0448\u0430\u043b\u0430 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Do they hear him?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0433\u043e \u0441\u043b\u044b\u0448\u0430\u0442?"
+    },
+    {
+        "phrase": "He did not hear her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b."
+    },
+    {
+        "phrase": "Do they hear her?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u0441\u043b\u044b\u0448\u0430\u0442?"
+    },
+    {
+        "phrase": "Does he hear them?",
+        "ru": "\u041e\u043d \u0438\u0445 \u0441\u043b\u044b\u0448\u0438\u0442?"
+    },
+    {
+        "phrase": "Will he understand them?",
+        "ru": "\u041e\u043d \u043f\u043e\u0439\u043c\u0435\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "They understand them.",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u043d\u0438\u043c\u0430\u044e\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "She will understand them.",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0439\u043c\u0435\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "He will not understand him.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043f\u043e\u0439\u043c\u0435\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "They understand her.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043f\u043e\u043d\u0438\u043c\u0430\u044e\u0442."
+    },
+    {
+        "phrase": "They do not understand them.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u044e\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "Will she understand them?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0439\u043c\u0435\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "Will she understand him?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0439\u043c\u0435\u0442 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "She understands him.",
+        "ru": "\u041e\u043d\u0430 \u0435\u0433\u043e \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "Did she understand her?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u043d\u044f\u043b\u0430 \u0435\u0435?"
+    },
+    {
+        "phrase": "She does not understand them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "You will understand them.",
+        "ru": "\u0422\u044b \u043f\u043e\u0439\u043c\u0435\u0448\u044c \u0438\u0445."
+    },
+    {
+        "phrase": "Does she understand her?",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442 \u0435\u0435?"
+    },
+    {
+        "phrase": "She understands her.",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442 \u0435\u0451."
+    },
+    {
+        "phrase": "They do not understand her.",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u044e\u0442."
+    },
+    {
+        "phrase": "Do I understand her?",
+        "ru": "\u042f \u0435\u0451 \u043f\u043e\u043d\u0438\u043c\u0430\u044e?"
+    },
+    {
+        "phrase": "Will you understand them?",
+        "ru": "\u0422\u044b \u043f\u043e\u0439\u043c\u0451\u0448\u044c \u0438\u0445?"
+    },
+    {
+        "phrase": "I do not understand her.",
+        "ru": "\u042f \u0435\u0451 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u044e."
+    },
+    {
+        "phrase": "Did he understand him?",
+        "ru": "\u041e\u043d \u043f\u043e\u043d\u044f\u043b \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "She does not understand her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "Will they understand him?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0439\u043c\u0443\u0442 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "Will I understand him?",
+        "ru": "\u042f \u043f\u043e\u0439\u043c\u0443 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "They will not understand her.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u0439\u043c\u0443\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "Did they understand her?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043f\u043e\u043d\u044f\u043b\u0438?"
+    },
+    {
+        "phrase": "Do they understand them?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u043d\u0438\u043c\u0430\u044e\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "Did he understand her?",
+        "ru": "\u041e\u043d \u0435\u0451 \u043f\u043e\u043d\u044f\u043b?"
+    },
+    {
+        "phrase": "They will not understand him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u0439\u043c\u0443\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She did not understand her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043b\u0430 \u0435\u0435."
+    },
+    {
+        "phrase": "You do not understand them.",
+        "ru": "\u0422\u044b \u0438\u0445 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0448\u044c."
+    },
+    {
+        "phrase": "Will they understand them?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0439\u043c\u0443\u0442 \u0438\u0445?"
+    },
+    {
+        "phrase": "They did not understand him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043b\u0438 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "He will understand her.",
+        "ru": "\u041e\u043d \u043f\u043e\u0439\u043c\u0435\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "He understands them.",
+        "ru": "\u041e\u043d \u0438\u0445 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "He did not understand them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "Does he understand her?",
+        "ru": "\u041e\u043d \u0435\u0451 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "He does not understand them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "They will understand him.",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0439\u043c\u0443\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Will he understand him?",
+        "ru": "\u041e\u043d \u043f\u043e\u0439\u043c\u0435\u0442 \u0435\u0433\u043e?"
+    },
+    {
+        "phrase": "I do not understand him.",
+        "ru": "\u042f \u0435\u0433\u043e \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u044e."
+    },
+    {
+        "phrase": "He understands him.",
+        "ru": "\u041e\u043d \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "You will not understand them.",
+        "ru": "\u0422\u044b \u043d\u0435 \u043f\u043e\u0439\u043c\u0451\u0448\u044c \u0438\u0445."
+    },
+    {
+        "phrase": "Did you understand them?",
+        "ru": "\u0412\u044b \u0438\u0445 \u043f\u043e\u043d\u044f\u043b\u0438?"
+    },
+    {
+        "phrase": "Will I understand her?",
+        "ru": "\u042f \u043f\u043e\u0439\u043c\u0443 \u0435\u0435?"
+    },
+    {
+        "phrase": "Do they understand her?",
+        "ru": "\u041e\u043d\u0438 \u0435\u0451 \u043f\u043e\u043d\u0438\u043c\u0430\u044e\u0442?"
+    },
+    {
+        "phrase": "He understands her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "Does he understand them?",
+        "ru": "\u041e\u043d \u0438\u0445 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "They do not understand him.",
+        "ru": "\u041e\u043d\u0438 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u044e\u0442 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "You did not understand him.",
+        "ru": "\u0412\u044b \u0435\u0433\u043e \u043d\u0435 \u043f\u043e\u043d\u044f\u043b\u0438."
+    },
+    {
+        "phrase": "He does not understand her.",
+        "ru": "\u041e\u043d \u0435\u0451 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442."
+    },
+    {
+        "phrase": "She will not understand her.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043f\u043e\u0439\u043c\u0435\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "You did not understand them.",
+        "ru": "\u0412\u044b \u043d\u0435 \u043f\u043e\u043d\u044f\u043b\u0438 \u0438\u0445."
+    },
+    {
+        "phrase": "They will understand them.",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0439\u043c\u0443\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "I understand her.",
+        "ru": "\u042f \u043f\u043e\u043d\u0438\u043c\u0430\u044e \u0435\u0435."
+    },
+    {
+        "phrase": "She will understand her.",
+        "ru": "\u041e\u043d\u0430 \u043f\u043e\u0439\u043c\u0435\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "Does she understand them?",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442?"
+    },
+    {
+        "phrase": "Did you understand him?",
+        "ru": "\u0412\u044b \u0435\u0433\u043e \u043f\u043e\u043d\u044f\u043b\u0438?"
+    },
+    {
+        "phrase": "He did not understand her.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043b \u0435\u0435."
+    },
+    {
+        "phrase": "Will they understand her?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0439\u043c\u0443\u0442 \u0435\u0435?"
+    },
+    {
+        "phrase": "I will understand him.",
+        "ru": "\u042f \u043f\u043e\u0439\u043c\u0443 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "She did not understand him.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043b\u0430 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "Did they understand them?",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u043d\u044f\u043b\u0438 \u0438\u0445?"
+    },
+    {
+        "phrase": "I did not understand them.",
+        "ru": "\u042f \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043b \u0438\u0445."
+    },
+    {
+        "phrase": "Do you understand them?",
+        "ru": "\u0422\u044b \u0438\u0445 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0448\u044c?"
+    },
+    {
+        "phrase": "They will understand her.",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u0439\u043c\u0443\u0442 \u0435\u0435."
+    },
+    {
+        "phrase": "They understood him.",
+        "ru": "\u041e\u043d\u0438 \u043f\u043e\u043d\u044f\u043b\u0438 \u0435\u0433\u043e."
+    },
+    {
+        "phrase": "I will understand her.",
+        "ru": "\u042f \u0435\u0451 \u043f\u043e\u0439\u043c\u0443."
+    },
+    {
+        "phrase": "He will not understand them.",
+        "ru": "\u041e\u043d \u043d\u0435 \u043f\u043e\u0439\u043c\u0435\u0442 \u0438\u0445."
+    },
+    {
+        "phrase": "She did not understand them.",
+        "ru": "\u041e\u043d\u0430 \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043b\u0430 \u0438\u0445."
+    },
+    {
+        "phrase": "She understands them.",
+        "ru": "\u041e\u043d\u0430 \u0438\u0445 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442."
+    }
+]

@@ -118,3 +118,18 @@ const getModal = (struct:SentenceStructure, require = false) => {
 };
 
 const randElem = (arr:any[]) => arr[Math.floor(Math.random() * arr.length)];
+
+// once created to extract and then to translate
+// not all but many
+export const getAllTrainPhrase = (verb:EnVerb, randTime = 100) => {
+  const array :string[] = [];
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < randTime; i++) {
+    const phrase = getTrainPhrase(verb).target;
+    if (!array.find((e) => e === phrase)) {
+      array.push(phrase);
+    }
+  }
+
+  return array;
+};
