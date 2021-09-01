@@ -5,7 +5,7 @@ import { MainListenButton } from './MainListenButton';
 import { SameText } from './SameText';
 import './index.css';
 import { AuxListenButton } from './AuxListenButton';
-import { useSameText } from '../../hooks/useSameText';
+import { useSameTextSpeech } from '../../hooks/useSameTextSpeech';
 
 interface Props{
   phrase:string,
@@ -20,7 +20,7 @@ export const Speech = ({ phrase, refresh, onSuccess, task }:Props) => {
   const [success, setSuccess] = useState<boolean|undefined>();
   const succeed = (v:boolean|undefined) => { setSuccess(v); };
   const { text, isLoading, start, stop, reset } = useRecognition();
-  const { words, isRecognised } = useSameText({ phrase, recieved: text, onSuccess: succeed });
+  const { words, isRecognised } = useSameTextSpeech({ phrase, recieved: text, onSuccess: succeed });
 
   const next = () => {
     if (!isLoading) {

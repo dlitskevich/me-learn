@@ -48,7 +48,7 @@ const objects = ['him', 'her', 'them'];
 export const getTrainPhrase = (verb:EnVerb) => {
   const struct = getStructure();
   const subj = getSubject(struct);
-  const obj = randElem(objects);
+  const obj = Math.randomElement(objects);
   const phraseInfo = { verb, struct, subj, obj };
   return {
     target: constructPhrase(phraseInfo),
@@ -67,12 +67,12 @@ const getStructure = () => ({
   third: Math.random() < 0.5,
   question: Math.random() > 0.66,
   negative: Math.random() > 0.5,
-  time: randElem(times),
+  time: Math.randomElement(times),
 } as SentenceStructure);
 
 const getSubject = (struct:SentenceStructure) => {
   const subjArr = struct.third ? subject3 : subject;
-  return randElem(subjArr);
+  return Math.randomElement(subjArr);
 };
 
 const constructPhraseEmoji = ({ verb, struct, subj, obj }:PhraseInfo) => {
@@ -116,8 +116,6 @@ const getModal = (struct:SentenceStructure, require = false) => {
   }
   return '';
 };
-
-const randElem = (arr:any[]) => arr[Math.floor(Math.random() * arr.length)];
 
 // once created to extract and then to translate
 // not all but many

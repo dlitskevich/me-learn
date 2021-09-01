@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter, Route, RouteProps, Switch } from 'react-router-dom';
 import './App.css';
 import './services/auth';
+import './services/math';
 import { Navigation } from './components/Navigation';
 import { Home } from './components/Home';
 import { Error } from './components/Error';
