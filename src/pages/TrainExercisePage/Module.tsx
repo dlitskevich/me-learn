@@ -13,7 +13,6 @@ type Props = {
   data: Phrase[],
   type: string
 }
-
 export const Module = ({ data, type }:Props) => {
   const [state, setState] = useState(0);
   const refresh = () => setState(state + 1);
@@ -29,7 +28,13 @@ export const Module = ({ data, type }:Props) => {
     const phrases = Math.shuffle([phrase, ...falsePhrases]);
 
     return (
-      <FourBlock target={phrase.phrase} task={phrase.ru} phrases={phrases.map((e) => e.phrase)} refresh={refresh} onSuccess={() => Promise.resolve()} />
+      <FourBlock
+        target={phrase.phrase}
+        task={phrase.ru}
+        phrases={phrases.map((e) => e.phrase)}
+        refresh={refresh}
+        onSuccess={() => Promise.resolve()}
+      />
     );
   }
   return <span>Not selected type</span>;

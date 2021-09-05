@@ -3,7 +3,6 @@ import { UtterText } from '../../components/UtterText';
 
 interface Props{
   words:string[],
-  // eslint-disable-next-line no-unused-vars
   isRecognised: (i:number) => boolean|undefined
 }
 

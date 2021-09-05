@@ -1,7 +1,7 @@
 import React from 'react';
 
 // eslint-disable-next-line no-unused-vars
-export const Navigation = ({ types, setType }:{types:string[], setType:(v:string)=>void}) => (
+export const ModuleNavigation = ({ types, setType }:{types:string[], setType:(v:string)=>void}) => (
 
   <nav className="navbar nav-pills sticky-top">
     <div className="container-fluid">

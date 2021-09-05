@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Navigation } from './Navigation';
+import { ModuleNavigation } from './ModuleNavigation';
 import { useAsyncData } from '../../hooks/useAsyncData';
 import { Module } from './Module';
 
@@ -14,7 +14,7 @@ export const TrainExercisePage = () => {
 
   return (
     <>
-      <Navigation types={moduleTypes} setType={setType} />
+      <ModuleNavigation types={moduleTypes} setType={setType} />
       {data && type && !isLoading
         ? <Module data={data} type={type} />
         : <span>No data</span>}

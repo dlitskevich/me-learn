@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React, { useState } from 'react';
 import { useRecognition } from '../../hooks/useRecognition';
 import { MainListenButton } from './MainListenButton';
@@ -10,9 +9,7 @@ import { useSameTextSpeech } from '../../hooks/useSameTextSpeech';
 interface Props{
   phrase:string,
   refresh: ()=>void,
-  // eslint-disable-next-line no-unused-vars
   onSuccess: (success:boolean)=>Promise<any>,
-  // eslint-disable-next-line no-unused-vars
   task?: ({ phrase, words, isRecognised }:{phrase:string, words:string[], isRecognised:(i:number) => boolean|undefined})=>React.ReactNode
 }
 
