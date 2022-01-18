@@ -1,0 +1,2 @@
+(this["webpackJsonpmy-app"]=this["webpackJsonpmy-app"]||[]).push([[0],{45:function(s){s.exports=JSON.parse('[{"id":1,"language":"english","data":[{"id":1,"title":"1000 Basic Phrases","filename":"basic-phrases","total":953,"progress":0}]}]')}}]);
+//# sourceMappingURL=0.ea781d20.chunk.js.map
