@@ -22,7 +22,7 @@ function App() {
         <div className="app container">
           <Switch>
             <Route path="/" component={Home} exact />
-            <GuardedRoute path="/learn" component={LearnPage} />
+            <Route path="/learn" component={LearnPage} />
             <Route path="/courses" exact component={CourseListPage} />
             <Route path="/courses/:language/:courseName" exact component={CoursePage} />
             <Route path="/courses/:language/:courseName/:unit" component={UnitPage} />
@@ -43,6 +43,7 @@ const GuardedRoute : React.FC<RouteProps> = ({ component, ...props }) => {
   if (!user) {
     return <Route {...props} component={Home} />;
   }
+
   return (
     <Route {...props} component={component} />
   );

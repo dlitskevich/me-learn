@@ -6,8 +6,6 @@ export const useSuccessAudio = () => {
   const successAudio = useAudio(successUrl);
   const errorAudio = useAudio(errorUrl);
   const play = (success:boolean|undefined) => {
-    console.log(success);
-
     if (success !== undefined) {
       success ? successAudio.play() : errorAudio.play();
     }
