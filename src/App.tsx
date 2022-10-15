@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, RouteProps, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import './services/auth';
 import './services/math';
@@ -7,7 +7,7 @@ import { Navigation } from './components/Navigation';
 import { Home } from './components/Home';
 import { Error } from './components/Error';
 import { LearnPage } from './pages/LearnPage';
-import { useUser } from './hooks/useUser';
+// import { useUser } from './hooks/useUser';
 import { LearnPhrasePage } from './pages/LearnPhrasePage';
 import { CourseListPage } from './pages/CourseListPage';
 import { CoursePage } from './pages/CoursePage';
@@ -38,13 +38,13 @@ function App() {
 
 export default App;
 
-const GuardedRoute : React.FC<RouteProps> = ({ component, ...props }) => {
-  const user = useUser();
-  if (!user) {
-    return <Route {...props} component={Home} />;
-  }
+// const GuardedRoute : React.FC<RouteProps> = ({ component, ...props }) => {
+//   const user = useUser();
+//   if (!user) {
+//     return <Route {...props} component={Home} />;
+//   }
 
-  return (
-    <Route {...props} component={component} />
-  );
-};
+//   return (
+//     <Route {...props} component={component} />
+//   );
+// };
